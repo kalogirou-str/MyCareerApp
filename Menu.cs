@@ -27,6 +27,7 @@ namespace MyCareerApp
         private void logoutButton_Click(object sender, EventArgs e)
         {
             //TODO EXIT FROM THE SQLITE ACCOUNT FROM THE TABLE
+            Close();
             Login login = new Login();
             login.Show();
         }
