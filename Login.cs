@@ -2,9 +2,9 @@ using System.Data.SQLite;
 
 namespace MyCareerApp
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -19,6 +19,8 @@ namespace MyCareerApp
             string databasePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "User.db");
             string connectionString = $"Data Source={databasePath};Version=3;";
             string query = "SELECT * FROM Users WHERE Username=@username AND Password=@password";
+
+            MessageBox.Show(databasePath);
 
             using (SQLiteConnection connection = new SQLiteConnection(connectionString))
             using (SQLiteCommand command = new SQLiteCommand(query, connection))

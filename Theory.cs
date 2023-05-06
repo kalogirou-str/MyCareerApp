@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace MyCareerApp
 {
-    public partial class TheoryForm : Form
+    public partial class Theory : Form
     {
         public static string speciality;
-        public TheoryForm()
+        public Theory()
         {
             InitializeComponent();
         }
@@ -24,6 +24,18 @@ namespace MyCareerApp
             ShowTheory showTheory = new ShowTheory();
             Hide();
             showTheory.Show();
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Close();
+            Menu menu = new Menu();
+            menu.Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -23,10 +23,20 @@ namespace MyCareerApp
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\softwareDeveloper.txt");
             string fileText = File.ReadAllText(filePath);
             richTextBox1.Text = fileText;
-            label1.Text = TheoryForm.speciality;
+            speciality.Text = Theory.speciality;
 
         }
 
-       
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Close();
+            Theory theoryForm = new Theory();
+            theoryForm.Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -20,8 +20,20 @@ namespace MyCareerApp
         private void theoryButton_Click(object sender, EventArgs e)
         {
             Hide();
-            TheoryForm theoryForm= new TheoryForm();
+            Theory theoryForm= new Theory();
             theoryForm.Show();
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            //TODO EXIT FROM THE SQLITE ACCOUNT FROM THE TABLE
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
