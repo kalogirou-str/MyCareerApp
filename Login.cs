@@ -36,7 +36,7 @@ namespace MyCareerApp
                     {
                         MessageBox.Show("Login successful!");
                         Menu menu= new Menu();
-                        this.Hide();
+                        Hide();
                         menu.Show();
                     }
                     else

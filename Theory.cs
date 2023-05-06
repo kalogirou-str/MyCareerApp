@@ -22,7 +22,7 @@ namespace MyCareerApp
         {
             speciality = "softwareDeveloper";
             ShowTheory showTheory = new ShowTheory();
-            Hide();
+            Close();
             showTheory.Show();
         }
 

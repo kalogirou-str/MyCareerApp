@@ -19,7 +19,7 @@ namespace MyCareerApp
 
         private void theoryButton_Click(object sender, EventArgs e)
         {
-            Hide();
+            Close();
             Theory theoryForm= new Theory();
             theoryForm.Show();
         }

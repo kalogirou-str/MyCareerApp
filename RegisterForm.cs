@@ -75,11 +75,9 @@ namespace MyCareerApp
                 if (rowsAffected > 0)
                 {
                     MessageBox.Show("Registration successful!");
-                    registerUsernameTextBox.Text = "";
-                    registerPasswordTextBox.Text = "";
-                    Hide();
-                    Menu menu= new Menu(); 
-                    menu.Show();
+                    Close();
+                    Login login = new Login();
+                    login.Show();
                 }
                 else
                 {
@@ -90,7 +88,7 @@ namespace MyCareerApp
 
         private void haveAccountLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Hide();
+            Close();
             Login login = new Login();
             login.Show();
         }
