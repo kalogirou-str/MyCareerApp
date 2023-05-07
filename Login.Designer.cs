@@ -38,13 +38,16 @@
             // 
             // loginButton
             // 
-            this.loginButton.Location = new System.Drawing.Point(244, 198);
+            this.loginButton.BackColor = System.Drawing.Color.Tan;
+            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.loginButton.Location = new System.Drawing.Point(224, 198);
             this.loginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(82, 22);
+            this.loginButton.Size = new System.Drawing.Size(137, 36);
             this.loginButton.TabIndex = 0;
             this.loginButton.Text = "Είσοδος";
-            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // usernameTextBox
@@ -67,36 +70,42 @@
             // username
             // 
             this.username.AutoSize = true;
-            this.username.Location = new System.Drawing.Point(224, 59);
+            this.username.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.username.Location = new System.Drawing.Point(213, 56);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(90, 15);
+            this.username.Size = new System.Drawing.Size(106, 20);
             this.username.TabIndex = 3;
             this.username.Text = "Όνομα χρήστη:";
             // 
             // password
             // 
             this.password.AutoSize = true;
-            this.password.Location = new System.Drawing.Point(194, 114);
+            this.password.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.password.Location = new System.Drawing.Point(175, 111);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(123, 15);
+            this.password.Size = new System.Drawing.Size(145, 20);
             this.password.TabIndex = 4;
             this.password.Text = "Κωδικός πρόσβασης:";
             // 
             // registerButton
             // 
-            this.registerButton.Location = new System.Drawing.Point(405, 198);
+            this.registerButton.BackColor = System.Drawing.Color.Tan;
+            this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.registerButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.registerButton.Location = new System.Drawing.Point(376, 198);
             this.registerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(82, 22);
+            this.registerButton.Size = new System.Drawing.Size(137, 36);
             this.registerButton.TabIndex = 5;
             this.registerButton.Text = "Εγγραφή";
-            this.registerButton.UseVisualStyleBackColor = true;
+            this.registerButton.UseVisualStyleBackColor = false;
             this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.registerButton);
             this.Controls.Add(this.password);

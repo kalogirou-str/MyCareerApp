@@ -91,17 +91,16 @@ namespace MyCareerApp
             }
 
         }
+        private void exitButton_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
-        private void backButton_Click(object sender, EventArgs e)
+        private void backButton_Click_1(object sender, EventArgs e)
         {
             Close();
             Theory theoryForm = new Theory();
             theoryForm.Show();
-        }
-
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

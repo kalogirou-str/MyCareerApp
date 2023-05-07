@@ -45,10 +45,10 @@
             this.theoryButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.theoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.theoryButton.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.theoryButton.Location = new System.Drawing.Point(240, 51);
+            this.theoryButton.Location = new System.Drawing.Point(226, 56);
             this.theoryButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.theoryButton.Name = "theoryButton";
-            this.theoryButton.Size = new System.Drawing.Size(226, 66);
+            this.theoryButton.Size = new System.Drawing.Size(244, 66);
             this.theoryButton.TabIndex = 0;
             this.theoryButton.Text = "Θεωρία";
             this.theoryButton.UseVisualStyleBackColor = false;
@@ -63,10 +63,10 @@
             this.testButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.testButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.testButton.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.testButton.Location = new System.Drawing.Point(240, 121);
+            this.testButton.Location = new System.Drawing.Point(226, 126);
             this.testButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.testButton.Name = "testButton";
-            this.testButton.Size = new System.Drawing.Size(226, 66);
+            this.testButton.Size = new System.Drawing.Size(244, 66);
             this.testButton.TabIndex = 1;
             this.testButton.Text = "Τεστ";
             this.testButton.UseVisualStyleBackColor = false;
@@ -80,10 +80,10 @@
             this.suggestButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.suggestButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.suggestButton.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.suggestButton.Location = new System.Drawing.Point(240, 191);
+            this.suggestButton.Location = new System.Drawing.Point(226, 196);
             this.suggestButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.suggestButton.Name = "suggestButton";
-            this.suggestButton.Size = new System.Drawing.Size(226, 66);
+            this.suggestButton.Size = new System.Drawing.Size(244, 66);
             this.suggestButton.TabIndex = 2;
             this.suggestButton.Text = "Συστάσεις";
             this.suggestButton.UseVisualStyleBackColor = false;
@@ -97,10 +97,10 @@
             this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.exitButton.Location = new System.Drawing.Point(240, 261);
+            this.exitButton.Location = new System.Drawing.Point(226, 266);
             this.exitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(226, 66);
+            this.exitButton.Size = new System.Drawing.Size(244, 66);
             this.exitButton.TabIndex = 3;
             this.exitButton.Text = "Έξοδος";
             this.exitButton.UseVisualStyleBackColor = false;
@@ -123,7 +123,7 @@
             // 
             this.welcomeMessage.AutoSize = true;
             this.welcomeMessage.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.welcomeMessage.Location = new System.Drawing.Point(226, 9);
+            this.welcomeMessage.Location = new System.Drawing.Point(217, 9);
             this.welcomeMessage.Name = "welcomeMessage";
             this.welcomeMessage.Size = new System.Drawing.Size(253, 31);
             this.welcomeMessage.TabIndex = 5;

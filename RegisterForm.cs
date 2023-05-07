@@ -17,8 +17,14 @@ namespace MyCareerApp
         {
             InitializeComponent();
         }
+        private void haveAccountLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Close();
+            Login login = new Login();
+            login.Show();
+        }
 
-        private void registerButton_Click(object sender, EventArgs e)
+        private void theoryButton_Click(object sender, EventArgs e)
         {
             string databasePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "User.db");
             string connectionString = $"Data Source={databasePath};Version=3;";
@@ -84,13 +90,6 @@ namespace MyCareerApp
                     MessageBox.Show("Registration failed.");
                 }
             }
-        }
-
-        private void haveAccountLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Close();
-            Login login = new Login();
-            login.Show();
         }
     }
  }
