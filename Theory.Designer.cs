@@ -58,6 +58,7 @@
             this.softwareDeveloper.Text = "•Software Developer";
             this.softwareDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.softwareDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.softwareDeveloper_LinkClicked);
+            this.softwareDeveloper.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // dataAnalyst
             // 
@@ -74,6 +75,7 @@
             this.dataAnalyst.Text = "•Data Analyst";
             this.dataAnalyst.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dataAnalyst.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dataAnalyst_LinkClicked);
+            this.dataAnalyst.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // webDesigner
             // 
@@ -90,6 +92,7 @@
             this.webDesigner.Text = "•Web Designer";
             this.webDesigner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.webDesigner.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.webDesigner_LinkClicked);
+            this.webDesigner.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // webDeveloper
             // 
@@ -106,6 +109,7 @@
             this.webDeveloper.Text = "•Web Developer";
             this.webDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.webDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.webDeveloper_LinkClicked);
+            this.webDeveloper.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // videoGameDeveloper
             // 
@@ -122,6 +126,7 @@
             this.videoGameDeveloper.Text = "•Video Game Developer";
             this.videoGameDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.videoGameDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.videoGameDeveloper_LinkClicked);
+            this.videoGameDeveloper.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // userExperienceDesign
             // 
@@ -138,6 +143,7 @@
             this.userExperienceDesign.Text = "•User Experience Design";
             this.userExperienceDesign.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.userExperienceDesign.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.userExperienceDesign_LinkClicked);
+            this.userExperienceDesign.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // networkEngineer
             // 
@@ -154,6 +160,7 @@
             this.networkEngineer.Text = "•Network Engineer";
             this.networkEngineer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.networkEngineer.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.networkEngineer_LinkClicked);
+            this.networkEngineer.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // informationSecurity
             // 
@@ -170,6 +177,7 @@
             this.informationSecurity.Text = "•Information Security";
             this.informationSecurity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.informationSecurity.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.informationSecurity_LinkClicked);
+            this.informationSecurity.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // machineLearning
             // 
@@ -186,6 +194,7 @@
             this.machineLearning.Text = "•Machine Learning";
             this.machineLearning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.machineLearning.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.machineLearning_LinkClicked);
+            this.machineLearning.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // computerSystemAnalyst
             // 
@@ -202,6 +211,7 @@
             this.computerSystemAnalyst.Text = "•Computer System Analyst";
             this.computerSystemAnalyst.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.computerSystemAnalyst.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.computerSystemAnalyst_LinkClicked);
+            this.computerSystemAnalyst.Click += new System.EventHandler(this.computerSystemAnalyst_Click);
             // 
             // backButton
             // 

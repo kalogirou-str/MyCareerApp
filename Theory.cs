@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Data.SqlClient;
+using System.Data.SQLite;
 
 namespace MyCareerApp
 {
@@ -96,6 +89,23 @@ namespace MyCareerApp
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
+        }
+
+        private void computerSystemAnalyst_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Data Source=User.db;Version=3;";
+            string sql = "UPDATE Specialities SET Clicks = Clicks + 1 WHERE Name = @speciality";
+
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                using (SQLiteCommand command = new SQLiteCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@speciality", speciality);
+                    command.ExecuteNonQuery();
+                }
+                connection.Close();
+            }
         }
     }
 }
