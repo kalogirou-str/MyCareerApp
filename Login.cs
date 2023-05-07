@@ -20,7 +20,7 @@ namespace MyCareerApp
             string connectionString = $"Data Source={databasePath};Version=3;";
             string query = "SELECT * FROM Users WHERE Username=@username AND Password=@password";
 
-            MessageBox.Show(databasePath);
+            //MessageBox.Show(databasePath);
 
             using (SQLiteConnection connection = new SQLiteConnection(connectionString))
             using (SQLiteCommand command = new SQLiteCommand(query, connection))

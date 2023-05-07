@@ -70,6 +70,7 @@
             this.testButton.TabIndex = 1;
             this.testButton.Text = "Τεστ";
             this.testButton.UseVisualStyleBackColor = false;
+            this.testButton.Click += new System.EventHandler(this.testButton_Click);
             // 
             // suggestButton
             // 
@@ -87,6 +88,7 @@
             this.suggestButton.TabIndex = 2;
             this.suggestButton.Text = "Συστάσεις";
             this.suggestButton.UseVisualStyleBackColor = false;
+            this.suggestButton.Click += new System.EventHandler(this.suggestButton_Click);
             // 
             // exitButton
             // 

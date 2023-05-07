@@ -36,5 +36,19 @@ namespace MyCareerApp
         {
             Application.Exit();
         }
+
+        private void testButton_Click(object sender, EventArgs e)
+        {
+            Close();
+            chooseTest chooseTest = new();
+            chooseTest.Show();
+        }
+
+        private void suggestButton_Click(object sender, EventArgs e)
+        {
+            Close();
+            Recommendation recommendation = new();
+            recommendation.Show();
+        }
     }
 }
