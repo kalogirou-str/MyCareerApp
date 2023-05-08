@@ -99,7 +99,7 @@ namespace MyCareerApp
         private void backButton_Click_1(object sender, EventArgs e)
         {
             Close();
-            Theory theoryForm = new Theory();
+            Theory theoryForm = new Theory(1);
             theoryForm.Show();
         }
     }

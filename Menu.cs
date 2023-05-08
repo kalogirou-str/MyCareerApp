@@ -12,21 +12,23 @@ namespace MyCareerApp
 {
     public partial class Menu : Form
     {
-        public Menu()
+        public static int new_current_user_id;
+        public Menu(int current_user_id)
         {
             InitializeComponent();
+            MessageBox.Show("user id  is" + current_user_id);
+            new_current_user_id = current_user_id;
         }
 
         private void theoryButton_Click(object sender, EventArgs e)
         {
             Close();
-            Theory theoryForm= new Theory();
+            Theory theoryForm= new Theory(new_current_user_id);
             theoryForm.Show();
         }
 
         private void logoutButton_Click(object sender, EventArgs e)
         {
-            //TODO EXIT FROM THE SQLITE ACCOUNT FROM THE TABLE
             Close();
             Login login = new Login();
             login.Show();

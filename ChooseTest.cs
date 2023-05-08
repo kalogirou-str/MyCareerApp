@@ -21,8 +21,9 @@ namespace MyCareerApp
 
         private void backButton_Click(object sender, EventArgs e)
         {
+            //Thelei allagh
             Close();
-            Menu menu = new();
+            Menu menu = new(1);
             menu.Show();
         }
 

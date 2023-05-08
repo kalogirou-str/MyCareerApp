@@ -4,6 +4,7 @@ namespace MyCareerApp
 {
     public partial class Login : Form
     {
+        public static int current_user_id;
         public Login()
         {
             InitializeComponent();
@@ -20,8 +21,6 @@ namespace MyCareerApp
             string connectionString = $"Data Source={databasePath};Version=3;";
             string query = "SELECT * FROM Users WHERE Username=@username AND Password=@password";
 
-            //MessageBox.Show(databasePath);
-
             using (SQLiteConnection connection = new SQLiteConnection(connectionString))
             using (SQLiteCommand command = new SQLiteCommand(query, connection))
             {
@@ -34,8 +33,14 @@ namespace MyCareerApp
                 {
                     if (reader.HasRows)
                     {
+                        // Set the current_user_id variable to the ID of the logged-in user
+                        if (reader.Read())
+                        {
+                            current_user_id = reader.GetInt32(reader.GetOrdinal("ID"));
+                        }
+
                         MessageBox.Show("Login successful!");
-                        Menu menu= new Menu();
+                        Menu menu = new Menu(current_user_id);
                         Hide();
                         menu.Show();
                     }
@@ -46,6 +51,7 @@ namespace MyCareerApp
                 }
             }
         }
+
 
         private void registerButton_Click(object sender, EventArgs e)
         {

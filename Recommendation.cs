@@ -20,7 +20,7 @@ namespace MyCareerApp
         private void backButton_Click(object sender, EventArgs e)
         {
             Close();
-            Menu menu = new Menu();
+            Menu menu = new Menu(1);
             menu.Show();
         }
 
