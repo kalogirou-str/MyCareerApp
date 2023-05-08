@@ -28,14 +28,17 @@ namespace MyCareerApp
         {
             speciality = "Προγραμματιστής Λογισμικού";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
         }
+
         private void dataAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             speciality = "Αναλυτής Δεδομένων";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -44,6 +47,7 @@ namespace MyCareerApp
         {
             speciality = "Αναλυτής Συστήματος Υπολογιστών";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -52,6 +56,7 @@ namespace MyCareerApp
         {
             speciality = "Προγραμματιστής Βιντεοπαιχνιδιών";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -60,6 +65,7 @@ namespace MyCareerApp
         {
             speciality = "Σχεδιαστής Εμπειρίας Χρήστη";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -68,6 +74,7 @@ namespace MyCareerApp
         {
             speciality = "Ασφάλεια Πληροφοριών";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -76,6 +83,7 @@ namespace MyCareerApp
         {
             speciality = "Μηχανικός Δικτύου";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -84,6 +92,7 @@ namespace MyCareerApp
         {
             speciality = "Μηχανική Μάθηση";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -92,6 +101,7 @@ namespace MyCareerApp
         {
             speciality = "Προγραμματιστής Ιστού";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -100,6 +110,7 @@ namespace MyCareerApp
         {
             speciality = "Σχεδιαστής Iστοσελίδων";
             int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory();
             Close();
             showTheory.Show();
@@ -133,5 +144,23 @@ namespace MyCareerApp
             return specialityID;
         }
 
+        private void UpdateUserClicks(int userId, int specialityId)
+        {
+            string connectionString = "Data Source=User.db;Version=3;";
+            string sql = "INSERT INTO User_clicks (User_id, Specialities_id, Clicks) " +
+                         "VALUES (@userId, @specialityId, 1) " +
+                         "ON CONFLICT(User_id, Specialities_id) DO UPDATE SET Clicks = Clicks + 1";
+
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+                using (SQLiteCommand command = new SQLiteCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@userId", userId);
+                    command.Parameters.AddWithValue("@specialityId", specialityId);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }
