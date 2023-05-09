@@ -11,7 +11,7 @@ namespace MyCareerApp
         public Theory(int current_user_id)
         {
             InitializeComponent();
-            current_user_id = new_current_user_id;
+            new_current_user_id = current_user_id;
         }
         private void backButton_Click(object sender, EventArgs e)
         {
@@ -29,7 +29,7 @@ namespace MyCareerApp
             speciality = "Προγραμματιστής Λογισμικού";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -39,7 +39,7 @@ namespace MyCareerApp
             speciality = "Αναλυτής Δεδομένων";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -48,7 +48,7 @@ namespace MyCareerApp
             speciality = "Αναλυτής Συστήματος Υπολογιστών";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -57,7 +57,7 @@ namespace MyCareerApp
             speciality = "Προγραμματιστής Βιντεοπαιχνιδιών";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -66,7 +66,7 @@ namespace MyCareerApp
             speciality = "Σχεδιαστής Εμπειρίας Χρήστη";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -75,7 +75,7 @@ namespace MyCareerApp
             speciality = "Ασφάλεια Πληροφοριών";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -84,7 +84,7 @@ namespace MyCareerApp
             speciality = "Μηχανικός Δικτύου";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -93,7 +93,7 @@ namespace MyCareerApp
             speciality = "Μηχανική Μάθηση";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -102,7 +102,7 @@ namespace MyCareerApp
             speciality = "Προγραμματιστής Ιστού";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }
@@ -111,7 +111,7 @@ namespace MyCareerApp
             speciality = "Σχεδιαστής Iστοσελίδων";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory();
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
         }

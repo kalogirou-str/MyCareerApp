@@ -13,9 +13,11 @@ namespace MyCareerApp
 {
     public partial class ShowTheory : Form
     {
-        public ShowTheory()
+        public static int new_current_user_id;
+        public ShowTheory(int current_user_id)
         {
             InitializeComponent();
+            new_current_user_id= current_user_id;
         }
 
         private void ShowTheory_Load(object sender, EventArgs e)
@@ -99,7 +101,7 @@ namespace MyCareerApp
         private void backButton_Click_1(object sender, EventArgs e)
         {
             Close();
-            Theory theoryForm = new Theory(1);
+            Theory theoryForm = new Theory(new_current_user_id);
             theoryForm.Show();
         }
     }
