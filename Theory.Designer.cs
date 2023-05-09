@@ -261,7 +261,9 @@
             this.Controls.Add(this.webDesigner);
             this.Controls.Add(this.dataAnalyst);
             this.Controls.Add(this.softwareDeveloper);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "Theory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TheoryForm";

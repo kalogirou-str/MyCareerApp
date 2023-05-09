@@ -261,6 +261,8 @@
             this.Controls.Add(this.webDesigner);
             this.Controls.Add(this.dataAnalyst);
             this.Controls.Add(this.softwareDeveloper);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "chooseTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Επιλογή Τεστ";

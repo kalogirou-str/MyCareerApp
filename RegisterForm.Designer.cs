@@ -116,7 +116,9 @@
             this.Controls.Add(this.username);
             this.Controls.Add(this.registerPasswordTextBox);
             this.Controls.Add(this.registerUsernameTextBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Εγγραφή";
