@@ -22,22 +22,22 @@ namespace MyCareerApp
 
         private void ShowTheory_Load(object sender, EventArgs e)
         {
-            if (Theory.speciality == "Προγραμματιστής Λογισμικού") { 
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\softwareDeveloper.txt");
+            if (Theory.speciality == "Εικονική Πραγματικότητα") { 
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\virtualReality.txt");
             string fileText = File.ReadAllText(filePath);
             richTextBox1.Text = fileText;
             speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Αναλυτής Δεδομένων")
+            if (Theory.speciality == "ΤΕΧΝΟΛΟΓΙΕΣ BLOCKCHAIN ΚΑΙ ΕΦΑΡΜΟΓΕΣ")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\dataAnalyst.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\blockchain.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Αναλυτής Συστήματος Υπολογιστών")
+            if (Theory.speciality == "ΑΡΧΕΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ (C/C++)")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\computerSystemAnalyst.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\c_c++.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;

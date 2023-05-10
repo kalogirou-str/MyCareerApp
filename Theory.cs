@@ -24,15 +24,6 @@ namespace MyCareerApp
         {
             Application.Exit();
         }
-        private void softwareDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            speciality = "Προγραμματιστής Λογισμικού";
-            int specialityID = GetSpecialityID(speciality);
-            UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory(new_current_user_id);
-            Close();
-            showTheory.Show();
-        }
 
         private void dataAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -161,6 +152,36 @@ namespace MyCareerApp
                     command.ExecuteNonQuery();
                 }
             }
+        }
+
+        private void virtualReality_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            speciality = "Εικονική Πραγματικότητα";
+            int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
+            Close();
+            showTheory.Show();
+        }
+
+        private void blockchain_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            speciality = "ΤΕΧΝΟΛΟΓΙΕΣ BLOCKCHAIN ΚΑΙ ΕΦΑΡΜΟΓΕΣ";
+            int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
+            Close();
+            showTheory.Show();
+        }
+
+        private void c_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            speciality = "ΑΡΧΕΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ (C/C++)";
+            int specialityID = GetSpecialityID(speciality);
+            UpdateUserClicks(new_current_user_id, specialityID);
+            ShowTheory showTheory = new ShowTheory(new_current_user_id);
+            Close();
+            showTheory.Show();
         }
     }
 }
