@@ -263,6 +263,7 @@
             this.Controls.Add(this.webDesigner);
             this.Controls.Add(this.dataAnalyst);
             this.Controls.Add(this.virtualReality);
+            this.MaximizeBox = false;
             this.Name = "Theory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TheoryForm";

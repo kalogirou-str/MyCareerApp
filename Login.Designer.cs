@@ -43,9 +43,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.username.AutoSize = true;
             this.username.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.username.Location = new System.Drawing.Point(204, 65);
+            this.username.Location = new System.Drawing.Point(178, 49);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(130, 24);
+            this.username.Size = new System.Drawing.Size(106, 20);
             this.username.TabIndex = 3;
             this.username.Text = "Όνομα χρήστη:";
             // 
@@ -54,10 +54,11 @@
             this.passwordTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.passwordTextBox.Location = new System.Drawing.Point(327, 138);
+            this.passwordTextBox.Location = new System.Drawing.Point(286, 104);
+            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
-            this.passwordTextBox.Size = new System.Drawing.Size(220, 27);
+            this.passwordTextBox.Size = new System.Drawing.Size(221, 23);
             this.passwordTextBox.TabIndex = 2;
             // 
             // password
@@ -67,9 +68,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.password.AutoSize = true;
             this.password.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.password.Location = new System.Drawing.Point(161, 138);
+            this.password.Location = new System.Drawing.Point(141, 104);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(182, 24);
+            this.password.Size = new System.Drawing.Size(145, 20);
             this.password.TabIndex = 4;
             this.password.Text = "Κωδικός πρόσβασης:";
             // 
@@ -78,9 +79,10 @@
             this.loginButton.BackColor = System.Drawing.Color.Tan;
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loginButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.loginButton.Location = new System.Drawing.Point(217, 254);
+            this.loginButton.Location = new System.Drawing.Point(178, 190);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(157, 48);
+            this.loginButton.Size = new System.Drawing.Size(137, 36);
             this.loginButton.TabIndex = 0;
             this.loginButton.Text = "Είσοδος";
             this.loginButton.UseVisualStyleBackColor = false;
@@ -91,9 +93,10 @@
             this.registerButton.BackColor = System.Drawing.Color.Tan;
             this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registerButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.registerButton.Location = new System.Drawing.Point(391, 254);
+            this.registerButton.Location = new System.Drawing.Point(397, 190);
+            this.registerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(157, 48);
+            this.registerButton.Size = new System.Drawing.Size(137, 36);
             this.registerButton.TabIndex = 5;
             this.registerButton.Text = "Εγγραφή";
             this.registerButton.UseVisualStyleBackColor = false;
@@ -104,23 +107,28 @@
             this.usernameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.usernameTextBox.Location = new System.Drawing.Point(327, 65);
+            this.usernameTextBox.Location = new System.Drawing.Point(286, 49);
+            this.usernameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(220, 27);
+            this.usernameTextBox.Size = new System.Drawing.Size(221, 23);
             this.usernameTextBox.TabIndex = 1;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(800, 451);
+            this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.registerButton);
             this.Controls.Add(this.username);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.password);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Είσοδος";
