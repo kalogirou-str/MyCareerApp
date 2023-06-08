@@ -16,5 +16,26 @@ namespace MyCareerApp
         {
             InitializeComponent();
         }
+
+        private void androidLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ShowTheory showTheory = new ShowTheory(1);
+            Close();
+            showTheory.Show();
+        }
+
+        private void naturalLanguageProcessLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ShowTheory showTheory = new ShowTheory(1);
+            Close();
+            showTheory.Show();
+        }
+
+        private void bioinformaticsLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ShowTheory showTheory = new ShowTheory(1);
+            Close();
+            showTheory.Show();
+        }
     }
 }

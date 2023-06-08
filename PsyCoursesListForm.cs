@@ -16,5 +16,26 @@ namespace MyCareerApp
         {
             InitializeComponent();
         }
+
+        private void cryptographyLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ShowTheory showTheory = new ShowTheory(1);
+            Close();
+            showTheory.Show();
+        }
+
+        private void securityLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ShowTheory showTheory = new ShowTheory(1);
+            Close();
+            showTheory.Show();
+        }
+
+        private void dataAnalyticsLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ShowTheory showTheory = new ShowTheory(1);
+            Close();
+            showTheory.Show();
+        }
     }
 }

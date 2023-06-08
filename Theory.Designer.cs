@@ -43,9 +43,9 @@
             this.videoGameDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.videoGameDeveloper.LinkColor = System.Drawing.Color.IndianRed;
-            this.videoGameDeveloper.Location = new System.Drawing.Point(152, 83);
+            this.videoGameDeveloper.Location = new System.Drawing.Point(133, 62);
             this.videoGameDeveloper.Name = "videoGameDeveloper";
-            this.videoGameDeveloper.Size = new System.Drawing.Size(562, 35);
+            this.videoGameDeveloper.Size = new System.Drawing.Size(442, 29);
             this.videoGameDeveloper.TabIndex = 4;
             this.videoGameDeveloper.TabStop = true;
             this.videoGameDeveloper.Text = "•Τεχνολογία Λογισμικού και Ευφυή Συστήματα";
@@ -59,9 +59,9 @@
             this.userExperienceDesign.Cursor = System.Windows.Forms.Cursors.Hand;
             this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.userExperienceDesign.LinkColor = System.Drawing.Color.IndianRed;
-            this.userExperienceDesign.Location = new System.Drawing.Point(152, 118);
+            this.userExperienceDesign.Location = new System.Drawing.Point(133, 103);
             this.userExperienceDesign.Name = "userExperienceDesign";
-            this.userExperienceDesign.Size = new System.Drawing.Size(518, 35);
+            this.userExperienceDesign.Size = new System.Drawing.Size(408, 29);
             this.userExperienceDesign.TabIndex = 9;
             this.userExperienceDesign.TabStop = true;
             this.userExperienceDesign.Text = "•Διαδικτυακά και Υπολογιστικά Συστήματα";
@@ -75,9 +75,9 @@
             this.blockchain.Cursor = System.Windows.Forms.Cursors.Hand;
             this.blockchain.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.blockchain.LinkColor = System.Drawing.Color.IndianRed;
-            this.blockchain.Location = new System.Drawing.Point(152, 167);
+            this.blockchain.Location = new System.Drawing.Point(133, 143);
             this.blockchain.Name = "blockchain";
-            this.blockchain.Size = new System.Drawing.Size(511, 35);
+            this.blockchain.Size = new System.Drawing.Size(402, 29);
             this.blockchain.TabIndex = 5;
             this.blockchain.TabStop = true;
             this.blockchain.Text = "•Πληροφοριακά Συστήματα και Υπηρεσίες";
@@ -90,10 +90,9 @@
             this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.backButton.Location = new System.Drawing.Point(14, 16);
-            this.backButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(115, 63);
+            this.backButton.Size = new System.Drawing.Size(101, 47);
             this.backButton.TabIndex = 10;
             this.backButton.Text = "Πίσω";
             this.backButton.UseVisualStyleBackColor = false;
@@ -105,10 +104,9 @@
             this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exitButton.Location = new System.Drawing.Point(671, 16);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.exitButton.Location = new System.Drawing.Point(587, 12);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(115, 63);
+            this.exitButton.Size = new System.Drawing.Size(101, 47);
             this.exitButton.TabIndex = 11;
             this.exitButton.Text = "Έξοδος";
             this.exitButton.UseVisualStyleBackColor = false;
@@ -118,25 +116,26 @@
             // 
             this.message.AutoSize = true;
             this.message.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.message.Location = new System.Drawing.Point(477, 211);
+            this.message.Location = new System.Drawing.Point(436, 193);
             this.message.Name = "message";
-            this.message.Size = new System.Drawing.Size(316, 87);
+            this.message.Size = new System.Drawing.Size(252, 69);
             this.message.TabIndex = 12;
             this.message.Text = "Παρακαλώ διαλέξτε την ειδικότητα \r\nγια την οποία θέλετε να μελετήσετε\r\n πατώντας " +
     "κλικ πάνω της.";
             // 
             // Theory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(800, 451);
+            this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.message);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.userExperienceDesign);
             this.Controls.Add(this.blockchain);
             this.Controls.Add(this.videoGameDeveloper);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Theory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

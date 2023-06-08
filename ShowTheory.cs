@@ -22,71 +22,64 @@ namespace MyCareerApp
 
         private void ShowTheory_Load(object sender, EventArgs e)
         {
-            if (Theory.speciality == "Εικονική Πραγματικότητα") { 
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\virtualReality.txt");
+            if (Theory.speciality == "Καινοτομία στο Ηλεκτρονικό Επιχειρείν") { 
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\hlektronikoEpixeirin.txt");
             string fileText = File.ReadAllText(filePath);
             richTextBox1.Text = fileText;
             speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "ΤΕΧΝΟΛΟΓΙΕΣ BLOCKCHAIN ΚΑΙ ΕΦΑΡΜΟΓΕΣ")
+            if (Theory.speciality == "Εικονική Πραγματικότητα")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\blockchain.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\eikonikiPragmatikotita.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "ΑΡΧΕΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ (C/C++)")
+            if (Theory.speciality == "Συστήματα Διαχείρισης Βάσεων Δεδομένων")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\c_c++.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sdvd.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Προγραμματιστής Βιντεοπαιχνιδιών")
+            if (Theory.speciality == "Λογικός Προγραμματισμός")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\videoGameDeveloper.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\logikosProgrammatismos.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Σχεδιαστής Εμπειρίας Χρήστη")
+            if (Theory.speciality == "Προηγμένη Αρχιτεκτονική Υπολογιστών")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\userExperienceDesigner.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\prohgmenhArxitektonikiYpologistwn.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Ασφάλεια Πληροφοριών")
+            if (Theory.speciality == "Κινητές και Ασύρματες Επικοινωνίες")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\informationSecurity.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kinites_asirmatesEpikoinwnies.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Μηχανικός Δικτύου")
+            if (Theory.speciality == "Δίκτυα Υψηλών Ταχυτήτων")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\networkEngineer.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\diktyaYpsilwnTaxythtwn.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Μηχανική Μάθηση")
+            if (Theory.speciality == "Κρυπτογραφία")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\machineLearning.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kryptografia.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
             }
-            if (Theory.speciality == "Προγραμματιστής Ιστού")
+            if (Theory.speciality == "Συστήματα Υποστήριξης Αποφάσεων")
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\webDeveloper.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Σχεδιαστής Iστοσελίδων")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\webDesigner.txt");
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sya.txt");
                 string fileText = File.ReadAllText(filePath);
                 richTextBox1.Text = fileText;
                 speciality.Text = Theory.speciality;
