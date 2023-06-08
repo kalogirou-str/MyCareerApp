@@ -28,84 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.virtualReality = new System.Windows.Forms.LinkLabel();
-            this.dataAnalyst = new System.Windows.Forms.LinkLabel();
-            this.webDesigner = new System.Windows.Forms.LinkLabel();
-            this.webDeveloper = new System.Windows.Forms.LinkLabel();
             this.videoGameDeveloper = new System.Windows.Forms.LinkLabel();
             this.userExperienceDesign = new System.Windows.Forms.LinkLabel();
-            this.networkEngineer = new System.Windows.Forms.LinkLabel();
-            this.informationSecurity = new System.Windows.Forms.LinkLabel();
-            this.machineLearning = new System.Windows.Forms.LinkLabel();
             this.blockchain = new System.Windows.Forms.LinkLabel();
             this.backButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.message = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // virtualReality
-            // 
-            this.virtualReality.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.virtualReality.AutoSize = true;
-            this.virtualReality.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.virtualReality.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.virtualReality.LinkColor = System.Drawing.Color.IndianRed;
-            this.virtualReality.Location = new System.Drawing.Point(161, 181);
-            this.virtualReality.Name = "virtualReality";
-            this.virtualReality.Size = new System.Drawing.Size(324, 35);
-            this.virtualReality.TabIndex = 0;
-            this.virtualReality.TabStop = true;
-            this.virtualReality.Text = "•Εικονική Πραγματικότητα";
-            this.virtualReality.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.virtualReality.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.virtualReality_LinkClicked);
-            // 
-            // dataAnalyst
-            // 
-            this.dataAnalyst.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.dataAnalyst.AutoSize = true;
-            this.dataAnalyst.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dataAnalyst.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dataAnalyst.LinkColor = System.Drawing.Color.IndianRed;
-            this.dataAnalyst.Location = new System.Drawing.Point(161, 388);
-            this.dataAnalyst.Name = "dataAnalyst";
-            this.dataAnalyst.Size = new System.Drawing.Size(175, 35);
-            this.dataAnalyst.TabIndex = 1;
-            this.dataAnalyst.TabStop = true;
-            this.dataAnalyst.Text = "•Data Analyst";
-            this.dataAnalyst.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.dataAnalyst.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dataAnalyst_LinkClicked);
-            // 
-            // webDesigner
-            // 
-            this.webDesigner.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.webDesigner.AutoSize = true;
-            this.webDesigner.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.webDesigner.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.webDesigner.LinkColor = System.Drawing.Color.IndianRed;
-            this.webDesigner.Location = new System.Drawing.Point(161, 347);
-            this.webDesigner.Name = "webDesigner";
-            this.webDesigner.Size = new System.Drawing.Size(190, 35);
-            this.webDesigner.TabIndex = 2;
-            this.webDesigner.TabStop = true;
-            this.webDesigner.Text = "•Web Designer";
-            this.webDesigner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.webDesigner.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.webDesigner_LinkClicked);
-            // 
-            // webDeveloper
-            // 
-            this.webDeveloper.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.webDeveloper.AutoSize = true;
-            this.webDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.webDeveloper.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.webDeveloper.LinkColor = System.Drawing.Color.IndianRed;
-            this.webDeveloper.Location = new System.Drawing.Point(161, 305);
-            this.webDeveloper.Name = "webDeveloper";
-            this.webDeveloper.Size = new System.Drawing.Size(204, 35);
-            this.webDeveloper.TabIndex = 3;
-            this.webDeveloper.TabStop = true;
-            this.webDeveloper.Text = "•Web Developer";
-            this.webDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.webDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.webDeveloper_LinkClicked);
             // 
             // videoGameDeveloper
             // 
@@ -114,14 +43,14 @@
             this.videoGameDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
             this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.videoGameDeveloper.LinkColor = System.Drawing.Color.IndianRed;
-            this.videoGameDeveloper.Location = new System.Drawing.Point(161, 9);
+            this.videoGameDeveloper.Location = new System.Drawing.Point(152, 83);
             this.videoGameDeveloper.Name = "videoGameDeveloper";
-            this.videoGameDeveloper.Size = new System.Drawing.Size(461, 35);
+            this.videoGameDeveloper.Size = new System.Drawing.Size(562, 35);
             this.videoGameDeveloper.TabIndex = 4;
             this.videoGameDeveloper.TabStop = true;
-            this.videoGameDeveloper.Text = "•ΑΡΧΕΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ (C/C++)";
+            this.videoGameDeveloper.Text = "•Τεχνολογία Λογισμικού και Ευφυή Συστήματα";
             this.videoGameDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.videoGameDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.c_LinkClicked);
+            this.videoGameDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.tles_LinkClicked);
             // 
             // userExperienceDesign
             // 
@@ -130,62 +59,14 @@
             this.userExperienceDesign.Cursor = System.Windows.Forms.Cursors.Hand;
             this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.userExperienceDesign.LinkColor = System.Drawing.Color.IndianRed;
-            this.userExperienceDesign.Location = new System.Drawing.Point(161, 44);
+            this.userExperienceDesign.Location = new System.Drawing.Point(152, 118);
             this.userExperienceDesign.Name = "userExperienceDesign";
-            this.userExperienceDesign.Size = new System.Drawing.Size(310, 35);
+            this.userExperienceDesign.Size = new System.Drawing.Size(518, 35);
             this.userExperienceDesign.TabIndex = 9;
             this.userExperienceDesign.TabStop = true;
-            this.userExperienceDesign.Text = "•User Experience Design";
+            this.userExperienceDesign.Text = "•Διαδικτυακά και Υπολογιστικά Συστήματα";
             this.userExperienceDesign.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.userExperienceDesign.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.userExperienceDesign_LinkClicked);
-            // 
-            // networkEngineer
-            // 
-            this.networkEngineer.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.networkEngineer.AutoSize = true;
-            this.networkEngineer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.networkEngineer.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.networkEngineer.LinkColor = System.Drawing.Color.IndianRed;
-            this.networkEngineer.Location = new System.Drawing.Point(161, 223);
-            this.networkEngineer.Name = "networkEngineer";
-            this.networkEngineer.Size = new System.Drawing.Size(235, 35);
-            this.networkEngineer.TabIndex = 8;
-            this.networkEngineer.TabStop = true;
-            this.networkEngineer.Text = "•Network Engineer";
-            this.networkEngineer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.networkEngineer.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.networkEngineer_LinkClicked);
-            // 
-            // informationSecurity
-            // 
-            this.informationSecurity.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.informationSecurity.AutoSize = true;
-            this.informationSecurity.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.informationSecurity.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.informationSecurity.LinkColor = System.Drawing.Color.IndianRed;
-            this.informationSecurity.Location = new System.Drawing.Point(161, 140);
-            this.informationSecurity.Name = "informationSecurity";
-            this.informationSecurity.Size = new System.Drawing.Size(265, 35);
-            this.informationSecurity.TabIndex = 7;
-            this.informationSecurity.TabStop = true;
-            this.informationSecurity.Text = "•Information Security";
-            this.informationSecurity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.informationSecurity.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.informationSecurity_LinkClicked);
-            // 
-            // machineLearning
-            // 
-            this.machineLearning.ActiveLinkColor = System.Drawing.Color.Firebrick;
-            this.machineLearning.AutoSize = true;
-            this.machineLearning.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.machineLearning.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.machineLearning.LinkColor = System.Drawing.Color.IndianRed;
-            this.machineLearning.Location = new System.Drawing.Point(161, 264);
-            this.machineLearning.Name = "machineLearning";
-            this.machineLearning.Size = new System.Drawing.Size(236, 35);
-            this.machineLearning.TabIndex = 6;
-            this.machineLearning.TabStop = true;
-            this.machineLearning.Text = "•Machine Learning";
-            this.machineLearning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.machineLearning.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.machineLearning_LinkClicked);
+            this.userExperienceDesign.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dys_LinkClicked);
             // 
             // blockchain
             // 
@@ -194,14 +75,14 @@
             this.blockchain.Cursor = System.Windows.Forms.Cursors.Hand;
             this.blockchain.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.blockchain.LinkColor = System.Drawing.Color.IndianRed;
-            this.blockchain.Location = new System.Drawing.Point(161, 93);
+            this.blockchain.Location = new System.Drawing.Point(152, 167);
             this.blockchain.Name = "blockchain";
-            this.blockchain.Size = new System.Drawing.Size(583, 35);
+            this.blockchain.Size = new System.Drawing.Size(511, 35);
             this.blockchain.TabIndex = 5;
             this.blockchain.TabStop = true;
-            this.blockchain.Text = "•ΤΕΧΝΟΛΟΓΙΕΣ BLOCKCHAIN ΚΑΙ ΕΦΑΡΜΟΓΕΣ";
+            this.blockchain.Text = "•Πληροφοριακά Συστήματα και Υπηρεσίες";
             this.blockchain.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.blockchain.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.blockchain_LinkClicked);
+            this.blockchain.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.psy_LinkClicked);
             // 
             // backButton
             // 
@@ -254,15 +135,8 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.userExperienceDesign);
-            this.Controls.Add(this.networkEngineer);
-            this.Controls.Add(this.informationSecurity);
-            this.Controls.Add(this.machineLearning);
             this.Controls.Add(this.blockchain);
             this.Controls.Add(this.videoGameDeveloper);
-            this.Controls.Add(this.webDeveloper);
-            this.Controls.Add(this.webDesigner);
-            this.Controls.Add(this.dataAnalyst);
-            this.Controls.Add(this.virtualReality);
             this.MaximizeBox = false;
             this.Name = "Theory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -273,16 +147,8 @@
         }
 
         #endregion
-
-        private LinkLabel virtualReality;
-        private LinkLabel dataAnalyst;
-        private LinkLabel webDesigner;
-        private LinkLabel webDeveloper;
         private LinkLabel videoGameDeveloper;
         private LinkLabel userExperienceDesign;
-        private LinkLabel networkEngineer;
-        private LinkLabel informationSecurity;
-        private LinkLabel machineLearning;
         private LinkLabel blockchain;
         private Button backButton;
         private Button exitButton;

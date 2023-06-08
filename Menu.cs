@@ -16,7 +16,6 @@ namespace MyCareerApp
         public Menu(int current_user_id)
         {
             InitializeComponent();
-            MessageBox.Show("user id  is" + current_user_id);
             new_current_user_id = current_user_id;
         }
 

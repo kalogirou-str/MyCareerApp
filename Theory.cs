@@ -25,6 +25,30 @@ namespace MyCareerApp
             Application.Exit();
         }
 
+        private void tles_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            TlesCoursesListForm tlesCoursesListForm = new TlesCoursesListForm();
+            Close();
+            tlesCoursesListForm.Show();
+        }
+
+        private void dys_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DysCoursesListForm dysCoursesListForm = new DysCoursesListForm();
+            Close();
+            dysCoursesListForm.Show();
+        }
+
+        private void psy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PsyCoursesListForm psyCoursesListForm = new PsyCoursesListForm();
+            Close();
+            psyCoursesListForm.Show();
+        }
+
+
+
+        /*
         private void dataAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             speciality = "Αναλυτής Δεδομένων";
@@ -64,15 +88,6 @@ namespace MyCareerApp
         private void informationSecurity_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             speciality = "Ασφάλεια Πληροφοριών";
-            int specialityID = GetSpecialityID(speciality);
-            UpdateUserClicks(new_current_user_id, specialityID);
-            ShowTheory showTheory = new ShowTheory(new_current_user_id);
-            Close();
-            showTheory.Show();
-        }
-        private void networkEngineer_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            speciality = "Μηχανικός Δικτύου";
             int specialityID = GetSpecialityID(speciality);
             UpdateUserClicks(new_current_user_id, specialityID);
             ShowTheory showTheory = new ShowTheory(new_current_user_id);
@@ -182,6 +197,6 @@ namespace MyCareerApp
             ShowTheory showTheory = new ShowTheory(new_current_user_id);
             Close();
             showTheory.Show();
-        }
+        }*/
     }
 }
