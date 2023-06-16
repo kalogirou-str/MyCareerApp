@@ -22,7 +22,7 @@ namespace MyCareerApp
 
         private void ShowTheory_Load(object sender, EventArgs e)
         {
-            if (Theory.speciality == "Καινοτομία στο Ηλεκτρονικό Επιχειρείν") { 
+             if (Theory.speciality == "Καινοτομία στο Ηλεκτρονικό Επιχειρείν") { 
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\hlektronikoEpixeirin.txt");
             string fileText = File.ReadAllText(filePath);
             richTextBox1.Text = fileText;
