@@ -12,28 +12,30 @@ namespace MyCareerApp
 {
     public partial class DysCoursesListForm : Form
     {
-        public DysCoursesListForm()
+        int new_current_user_id;
+        public DysCoursesListForm(int current_user_id)
         {
             InitializeComponent();
+            new_current_user_id = current_user_id;
         }
 
         private void computerDesignLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowTheory showTheory = new ShowTheory(1);
+            ShowTheory showTheory = new ShowTheory(1, new_current_user_id);
             Close();
             showTheory.Show();
         }
 
         private void ArchitectureLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowTheory showTheory = new ShowTheory(1);
+            ShowTheory showTheory = new ShowTheory(5, new_current_user_id);
             Close();
             showTheory.Show();
         }
 
         private void securityLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowTheory showTheory = new ShowTheory(1);
+            ShowTheory showTheory = new ShowTheory(4, new_current_user_id);
             Close();
             showTheory.Show();
         }

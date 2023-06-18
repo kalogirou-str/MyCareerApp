@@ -17,6 +17,7 @@ namespace MyCareerApp
         {
             InitializeComponent();
             new_current_user_id = current_user_id;
+            nameLabel.Text = current_user_id.ToString();
         }
 
         private void theoryButton_Click(object sender, EventArgs e)

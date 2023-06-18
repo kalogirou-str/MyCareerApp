@@ -13,76 +13,83 @@ namespace MyCareerApp
 {
     public partial class ShowTheory : Form
     {
-        public static int new_current_user_id;
-        public ShowTheory(int current_user_id)
+        public static int new_current_course_id, new_current_user_id;
+        public ShowTheory(int current_course_id, int current_user_id)
         {
             InitializeComponent();
-            new_current_user_id= current_user_id;
+            new_current_course_id = current_course_id;
+            new_current_user_id = current_user_id;
         }
+
 
         private void ShowTheory_Load(object sender, EventArgs e)
         {
-             if (Theory.speciality == "Καινοτομία στο Ηλεκτρονικό Επιχειρείν") { 
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\hlektronikoEpixeirin.txt");
-            string fileText = File.ReadAllText(filePath);
-            richTextBox1.Text = fileText;
-            speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Εικονική Πραγματικότητα")
+
+            switch (new_current_course_id)
             {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\eikonikiPragmatikotita.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Συστήματα Διαχείρισης Βάσεων Δεδομένων")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sdvd.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Λογικός Προγραμματισμός")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\logikosProgrammatismos.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Προηγμένη Αρχιτεκτονική Υπολογιστών")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\prohgmenhArxitektonikiYpologistwn.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Κινητές και Ασύρματες Επικοινωνίες")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kinites_asirmatesEpikoinwnies.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Δίκτυα Υψηλών Ταχυτήτων")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\diktyaYpsilwnTaxythtwn.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Κρυπτογραφία")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kryptografia.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
-            }
-            if (Theory.speciality == "Συστήματα Υποστήριξης Αποφάσεων")
-            {
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sya.txt");
-                string fileText = File.ReadAllText(filePath);
-                richTextBox1.Text = fileText;
-                speciality.Text = Theory.speciality;
+                
+                case 0:
+                    string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\hlektronikoEpixeirin.txt");
+                    string fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 1:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\eikonikiPragmatikotita.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 2:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sdvd.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 3:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\logikosProgrammatismos.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 4:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\prohgmenhArxitektonikiYpologistwn.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 5:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kinites_asirmatesEpikoinwnies.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 6:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\diktyaYpsilwnTaxythtwn.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 7:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kryptografia.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
+
+                case 8:
+                    filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sya.txt");
+                    fileText = File.ReadAllText(filePath);
+                    richTextBox1.Text = fileText;
+                    speciality.Text = Theory.speciality;
+                    break;
             }
 
         }

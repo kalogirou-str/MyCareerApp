@@ -15,9 +15,8 @@ namespace MyCareerApp
         }
         private void backButton_Click(object sender, EventArgs e)
         {
-            //Thelei allagh
             Close();
-            Menu menu = new Menu(1);
+            Menu menu = new Menu(new_current_user_id);
             menu.Show();
         }
         private void exitButton_Click(object sender, EventArgs e)
@@ -27,21 +26,21 @@ namespace MyCareerApp
 
         private void tles_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            TlesCoursesListForm tlesCoursesListForm = new TlesCoursesListForm();
+            TlesCoursesListForm tlesCoursesListForm = new TlesCoursesListForm(new_current_user_id);
             Close();
             tlesCoursesListForm.Show();
         }
 
         private void dys_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            DysCoursesListForm dysCoursesListForm = new DysCoursesListForm();
+            DysCoursesListForm dysCoursesListForm = new DysCoursesListForm(new_current_user_id);
             Close();
             dysCoursesListForm.Show();
         }
 
         private void psy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            PsyCoursesListForm psyCoursesListForm = new PsyCoursesListForm();
+            PsyCoursesListForm psyCoursesListForm = new PsyCoursesListForm(new_current_user_id);
             Close();
             psyCoursesListForm.Show();
         }

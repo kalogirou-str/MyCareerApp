@@ -12,28 +12,30 @@ namespace MyCareerApp
 {
     public partial class TlesCoursesListForm : Form
     {
-        public TlesCoursesListForm()
+        int new_current_user_id;
+        public TlesCoursesListForm(int current_user_id)
         {
             InitializeComponent();
+            new_current_user_id = current_user_id;
         }
 
         private void androidLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowTheory showTheory = new ShowTheory(1);
+            ShowTheory showTheory = new ShowTheory(1, new_current_user_id);
             Close();
             showTheory.Show();
         }
 
         private void naturalLanguageProcessLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowTheory showTheory = new ShowTheory(1);
+            ShowTheory showTheory = new ShowTheory(1, new_current_user_id);
             Close();
             showTheory.Show();
         }
 
         private void bioinformaticsLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowTheory showTheory = new ShowTheory(1);
+            ShowTheory showTheory = new ShowTheory(1, new_current_user_id);
             Close();
             showTheory.Show();
         }
