@@ -42,7 +42,7 @@
             this.securityLinkLabel.TabIndex = 1;
             this.securityLinkLabel.TabStop = true;
             this.securityLinkLabel.Text = "Συστήματα Υποστήριξης Αποφάσεων";
-            this.securityLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.securityLinkLabel_LinkClicked);
+            this.securityLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.systhmataApofasewnLinkLabel_LinkClicked);
             // 
             // dataAnalyticsLinkLabel
             // 
@@ -53,7 +53,7 @@
             this.dataAnalyticsLinkLabel.TabIndex = 2;
             this.dataAnalyticsLinkLabel.TabStop = true;
             this.dataAnalyticsLinkLabel.Text = "Ηλεκτρονικό Επιχειρείν και Καινοτομία";
-            this.dataAnalyticsLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dataAnalyticsLinkLabel_LinkClicked);
+            this.dataAnalyticsLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.hlektronikonEpixeirinLinkLabel_LinkClicked);
             // 
             // cryptographyLinkLabel
             // 

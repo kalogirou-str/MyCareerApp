@@ -28,49 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataAnalyticsLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.securityLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.cryptographyLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.diktyaYpsilwnTaxithtwnLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.archtectureLinkLabel = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // dataAnalyticsLinkLabel
+            // kinitesAsyrmatesEpikoinwnisLinkLabel
             // 
-            this.dataAnalyticsLinkLabel.AutoSize = true;
-            this.dataAnalyticsLinkLabel.Location = new System.Drawing.Point(263, 321);
-            this.dataAnalyticsLinkLabel.Name = "dataAnalyticsLinkLabel";
-            this.dataAnalyticsLinkLabel.Size = new System.Drawing.Size(274, 20);
-            this.dataAnalyticsLinkLabel.TabIndex = 5;
-            this.dataAnalyticsLinkLabel.TabStop = true;
-            this.dataAnalyticsLinkLabel.Text = "Ηλεκτρονικό Επιχειρείν και Καινοτομία";
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.AutoSize = true;
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Location = new System.Drawing.Point(263, 321);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Name = "kinitesAsyrmatesEpikoinwnisLinkLabel";
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Size = new System.Drawing.Size(256, 20);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.TabIndex = 5;
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.TabStop = true;
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Text = "Κινητές και Ασύρματες Επικοινωνίες";
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.kinitesAsyrmatesEpikoinwnisLinkLabel_LinkClicked);
             // 
-            // securityLinkLabel
+            // diktyaYpsilwnTaxithtwnLinkLabel
             // 
-            this.securityLinkLabel.AutoSize = true;
-            this.securityLinkLabel.Location = new System.Drawing.Point(264, 214);
-            this.securityLinkLabel.Name = "securityLinkLabel";
-            this.securityLinkLabel.Size = new System.Drawing.Size(262, 20);
-            this.securityLinkLabel.TabIndex = 4;
-            this.securityLinkLabel.TabStop = true;
-            this.securityLinkLabel.Text = "Συστήματα Υποστήριξης Αποφάσεων";
+            this.diktyaYpsilwnTaxithtwnLinkLabel.AutoSize = true;
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Location = new System.Drawing.Point(264, 214);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Name = "diktyaYpsilwnTaxithtwnLinkLabel";
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Size = new System.Drawing.Size(194, 20);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.TabIndex = 4;
+            this.diktyaYpsilwnTaxithtwnLinkLabel.TabStop = true;
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Text = "Δίκτυα Υψηλών Ταχυτήτων";
+            this.diktyaYpsilwnTaxithtwnLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.diktyaYpsilwnTaxithtwnLinkLabel_LinkClicked);
             // 
-            // cryptographyLinkLabel
+            // archtectureLinkLabel
             // 
-            this.cryptographyLinkLabel.AutoSize = true;
-            this.cryptographyLinkLabel.Location = new System.Drawing.Point(281, 110);
-            this.cryptographyLinkLabel.Name = "cryptographyLinkLabel";
-            this.cryptographyLinkLabel.Size = new System.Drawing.Size(109, 20);
-            this.cryptographyLinkLabel.TabIndex = 3;
-            this.cryptographyLinkLabel.TabStop = true;
-            this.cryptographyLinkLabel.Text = "Κρυπτογραφία";
+            this.archtectureLinkLabel.AutoSize = true;
+            this.archtectureLinkLabel.Location = new System.Drawing.Point(281, 110);
+            this.archtectureLinkLabel.Name = "archtectureLinkLabel";
+            this.archtectureLinkLabel.Size = new System.Drawing.Size(284, 20);
+            this.archtectureLinkLabel.TabIndex = 3;
+            this.archtectureLinkLabel.TabStop = true;
+            this.archtectureLinkLabel.Text = "Προηγμένη Αρχιτεκτονική Υπολογιστών";
+            this.archtectureLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.archtectureLinkLabel_LinkClicked);
             // 
             // DysCourseList2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataAnalyticsLinkLabel);
-            this.Controls.Add(this.securityLinkLabel);
-            this.Controls.Add(this.cryptographyLinkLabel);
+            this.Controls.Add(this.kinitesAsyrmatesEpikoinwnisLinkLabel);
+            this.Controls.Add(this.diktyaYpsilwnTaxithtwnLinkLabel);
+            this.Controls.Add(this.archtectureLinkLabel);
             this.Name = "DysCourseList2";
             this.Text = "DysCourseList2";
             this.ResumeLayout(false);
@@ -80,8 +83,8 @@
 
         #endregion
 
-        private LinkLabel dataAnalyticsLinkLabel;
-        private LinkLabel securityLinkLabel;
-        private LinkLabel cryptographyLinkLabel;
+        private LinkLabel kinitesAsyrmatesEpikoinwnisLinkLabel;
+        private LinkLabel diktyaYpsilwnTaxithtwnLinkLabel;
+        private LinkLabel archtectureLinkLabel;
     }
 }

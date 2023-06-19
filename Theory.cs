@@ -33,7 +33,7 @@ namespace MyCareerApp
 
         private void dys_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            DysCoursesListForm dysCoursesListForm = new DysCoursesListForm(new_current_user_id);
+            DysCourseList2 dysCoursesListForm = new DysCourseList2(new_current_user_id);
             Close();
             dysCoursesListForm.Show();
         }
@@ -45,7 +45,7 @@ namespace MyCareerApp
             psyCoursesListForm.Show();
         }
 
-
+        
 
         /*
         private void dataAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

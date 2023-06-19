@@ -24,67 +24,66 @@ namespace MyCareerApp
 
         private void ShowTheory_Load(object sender, EventArgs e)
         {
-
             switch (new_current_course_id)
             {
                 
-                case 0:
+                case 1:
                     string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\hlektronikoEpixeirin.txt");
                     string fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 1:
+                case 2:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\eikonikiPragmatikotita.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 2:
+                case 3:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sdvd.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 3:
+                case 4:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\logikosProgrammatismos.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 4:
+                case 5:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\prohgmenhArxitektonikiYpologistwn.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 5:
+                case 6:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kinites_asirmatesEpikoinwnies.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 6:
+                case 7:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\diktyaYpsilwnTaxythtwn.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 7:
+                case 8:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\kryptografia.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;
                     speciality.Text = Theory.speciality;
                     break;
 
-                case 8:
+                case 9:
                     filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Theory\\sya.txt");
                     fileText = File.ReadAllText(filePath);
                     richTextBox1.Text = fileText;

@@ -36,45 +36,44 @@
             // bioinformaticsLinkLabel
             // 
             this.bioinformaticsLinkLabel.AutoSize = true;
-            this.bioinformaticsLinkLabel.Location = new System.Drawing.Point(267, 114);
+            this.bioinformaticsLinkLabel.Location = new System.Drawing.Point(305, 152);
             this.bioinformaticsLinkLabel.Name = "bioinformaticsLinkLabel";
-            this.bioinformaticsLinkLabel.Size = new System.Drawing.Size(153, 15);
+            this.bioinformaticsLinkLabel.Size = new System.Drawing.Size(194, 20);
             this.bioinformaticsLinkLabel.TabIndex = 0;
             this.bioinformaticsLinkLabel.TabStop = true;
             this.bioinformaticsLinkLabel.Text = "Λογικός Προγραμματισμός";
-            this.bioinformaticsLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.bioinformaticsLinkLabel_LinkClicked);
+            this.bioinformaticsLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.logikosProgrammatismosLinkLabel_LinkClicked);
             // 
             // naturalLanguageProcessLinkLabel
             // 
             this.naturalLanguageProcessLinkLabel.AutoSize = true;
-            this.naturalLanguageProcessLinkLabel.Location = new System.Drawing.Point(253, 64);
+            this.naturalLanguageProcessLinkLabel.Location = new System.Drawing.Point(289, 85);
             this.naturalLanguageProcessLinkLabel.Name = "naturalLanguageProcessLinkLabel";
-            this.naturalLanguageProcessLinkLabel.Size = new System.Drawing.Size(243, 15);
+            this.naturalLanguageProcessLinkLabel.Size = new System.Drawing.Size(309, 20);
             this.naturalLanguageProcessLinkLabel.TabIndex = 1;
             this.naturalLanguageProcessLinkLabel.TabStop = true;
             this.naturalLanguageProcessLinkLabel.Text = "Συστήματα Διαχείρισης Βάσεων Δεδομένων";
-            this.naturalLanguageProcessLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.naturalLanguageProcessLinkLabel_LinkClicked);
+            this.naturalLanguageProcessLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.sdvdProcessLinkLabel_LinkClicked);
             // 
             // androidLinkLabel
             // 
             this.androidLinkLabel.AutoSize = true;
-            this.androidLinkLabel.Location = new System.Drawing.Point(267, 161);
+            this.androidLinkLabel.Location = new System.Drawing.Point(305, 215);
             this.androidLinkLabel.Name = "androidLinkLabel";
-            this.androidLinkLabel.Size = new System.Drawing.Size(145, 15);
+            this.androidLinkLabel.Size = new System.Drawing.Size(186, 20);
             this.androidLinkLabel.TabIndex = 2;
             this.androidLinkLabel.TabStop = true;
             this.androidLinkLabel.Text = "Εικονική Πραγματικότητα";
-            this.androidLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.androidLinkLabel_LinkClicked);
+            this.androidLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.eikonikiPragmatikotitaLinkLabel_LinkClicked);
             // 
             // TlesCoursesListForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 338);
+            this.ClientSize = new System.Drawing.Size(800, 451);
             this.Controls.Add(this.androidLinkLabel);
             this.Controls.Add(this.naturalLanguageProcessLinkLabel);
             this.Controls.Add(this.bioinformaticsLinkLabel);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TlesCoursesListForm";
             this.ResumeLayout(false);
             this.PerformLayout();
