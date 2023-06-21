@@ -47,7 +47,7 @@
             // 
             this.message.AutoSize = true;
             this.message.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.message.Location = new System.Drawing.Point(430, 237);
+            this.message.Location = new System.Drawing.Point(699, 449);
             this.message.Name = "message";
             this.message.Size = new System.Drawing.Size(258, 92);
             this.message.TabIndex = 25;
@@ -247,7 +247,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(700, 338);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.message);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.backButton);

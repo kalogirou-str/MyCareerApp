@@ -35,16 +35,18 @@
             // 
             this.panelQuestions.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelQuestions.Location = new System.Drawing.Point(0, 0);
+            this.panelQuestions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelQuestions.Name = "panelQuestions";
-            this.panelQuestions.Size = new System.Drawing.Size(800, 450);
+            this.panelQuestions.Size = new System.Drawing.Size(984, 561);
             this.panelQuestions.TabIndex = 0;
             // 
             // Test
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.panelQuestions);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Test";
             this.Text = "Test";
             this.ResumeLayout(false);

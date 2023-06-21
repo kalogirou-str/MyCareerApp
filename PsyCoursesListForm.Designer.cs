@@ -36,9 +36,9 @@
             // securityLinkLabel
             // 
             this.securityLinkLabel.AutoSize = true;
-            this.securityLinkLabel.Location = new System.Drawing.Point(265, 197);
+            this.securityLinkLabel.Location = new System.Drawing.Point(232, 148);
             this.securityLinkLabel.Name = "securityLinkLabel";
-            this.securityLinkLabel.Size = new System.Drawing.Size(262, 20);
+            this.securityLinkLabel.Size = new System.Drawing.Size(211, 15);
             this.securityLinkLabel.TabIndex = 1;
             this.securityLinkLabel.TabStop = true;
             this.securityLinkLabel.Text = "Συστήματα Υποστήριξης Αποφάσεων";
@@ -47,9 +47,9 @@
             // dataAnalyticsLinkLabel
             // 
             this.dataAnalyticsLinkLabel.AutoSize = true;
-            this.dataAnalyticsLinkLabel.Location = new System.Drawing.Point(264, 304);
+            this.dataAnalyticsLinkLabel.Location = new System.Drawing.Point(231, 228);
             this.dataAnalyticsLinkLabel.Name = "dataAnalyticsLinkLabel";
-            this.dataAnalyticsLinkLabel.Size = new System.Drawing.Size(274, 20);
+            this.dataAnalyticsLinkLabel.Size = new System.Drawing.Size(212, 15);
             this.dataAnalyticsLinkLabel.TabIndex = 2;
             this.dataAnalyticsLinkLabel.TabStop = true;
             this.dataAnalyticsLinkLabel.Text = "Ηλεκτρονικό Επιχειρείν και Καινοτομία";
@@ -58,9 +58,9 @@
             // cryptographyLinkLabel
             // 
             this.cryptographyLinkLabel.AutoSize = true;
-            this.cryptographyLinkLabel.Location = new System.Drawing.Point(282, 93);
+            this.cryptographyLinkLabel.Location = new System.Drawing.Point(247, 70);
             this.cryptographyLinkLabel.Name = "cryptographyLinkLabel";
-            this.cryptographyLinkLabel.Size = new System.Drawing.Size(109, 20);
+            this.cryptographyLinkLabel.Size = new System.Drawing.Size(88, 15);
             this.cryptographyLinkLabel.TabIndex = 0;
             this.cryptographyLinkLabel.TabStop = true;
             this.cryptographyLinkLabel.Text = "Κρυπτογραφία";
@@ -68,12 +68,13 @@
             // 
             // PsyCoursesListForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 451);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.dataAnalyticsLinkLabel);
             this.Controls.Add(this.securityLinkLabel);
             this.Controls.Add(this.cryptographyLinkLabel);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "PsyCoursesListForm";
             this.Text = "PsyCoursesListForm";
             this.ResumeLayout(false);

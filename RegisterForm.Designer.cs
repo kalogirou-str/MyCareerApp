@@ -39,48 +39,48 @@
             // password
             // 
             this.password.AutoSize = true;
-            this.password.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.password.Location = new System.Drawing.Point(267, 142);
+            this.password.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.password.Location = new System.Drawing.Point(241, 163);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(66, 20);
+            this.password.Size = new System.Drawing.Size(91, 25);
             this.password.TabIndex = 10;
             this.password.Text = "Κωδικός:";
             // 
             // username
             // 
             this.username.AutoSize = true;
-            this.username.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.username.Location = new System.Drawing.Point(227, 91);
+            this.username.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.username.Location = new System.Drawing.Point(189, 114);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(106, 20);
+            this.username.Size = new System.Drawing.Size(143, 25);
             this.username.TabIndex = 9;
             this.username.Text = "Όνομα χρήστη:";
             // 
             // registerPasswordTextBox
             // 
-            this.registerPasswordTextBox.Location = new System.Drawing.Point(339, 142);
+            this.registerPasswordTextBox.Location = new System.Drawing.Point(338, 163);
             this.registerPasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registerPasswordTextBox.Name = "registerPasswordTextBox";
             this.registerPasswordTextBox.PasswordChar = '*';
-            this.registerPasswordTextBox.Size = new System.Drawing.Size(110, 23);
+            this.registerPasswordTextBox.Size = new System.Drawing.Size(411, 23);
             this.registerPasswordTextBox.TabIndex = 8;
             // 
             // registerUsernameTextBox
             // 
-            this.registerUsernameTextBox.Location = new System.Drawing.Point(339, 91);
+            this.registerUsernameTextBox.Location = new System.Drawing.Point(338, 116);
             this.registerUsernameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registerUsernameTextBox.Name = "registerUsernameTextBox";
-            this.registerUsernameTextBox.Size = new System.Drawing.Size(110, 23);
+            this.registerUsernameTextBox.Size = new System.Drawing.Size(411, 23);
             this.registerUsernameTextBox.TabIndex = 7;
             // 
             // haveAccountLinkLabel
             // 
             this.haveAccountLinkLabel.AutoSize = true;
-            this.haveAccountLinkLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.haveAccountLinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.haveAccountLinkLabel.LinkColor = System.Drawing.Color.Black;
-            this.haveAccountLinkLabel.Location = new System.Drawing.Point(267, 248);
+            this.haveAccountLinkLabel.Location = new System.Drawing.Point(375, 414);
             this.haveAccountLinkLabel.Name = "haveAccountLinkLabel";
-            this.haveAccountLinkLabel.Size = new System.Drawing.Size(173, 21);
+            this.haveAccountLinkLabel.Size = new System.Drawing.Size(208, 25);
             this.haveAccountLinkLabel.TabIndex = 12;
             this.haveAccountLinkLabel.TabStop = true;
             this.haveAccountLinkLabel.Text = "Έχετε ήδη λογαριασμό;";
@@ -95,10 +95,10 @@
             this.registerButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registerButton.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.registerButton.Location = new System.Drawing.Point(284, 196);
+            this.registerButton.Location = new System.Drawing.Point(282, 282);
             this.registerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(137, 36);
+            this.registerButton.Size = new System.Drawing.Size(400, 100);
             this.registerButton.TabIndex = 13;
             this.registerButton.Text = "Εγγραφή";
             this.registerButton.UseVisualStyleBackColor = false;
@@ -109,7 +109,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(700, 338);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.registerButton);
             this.Controls.Add(this.haveAccountLinkLabel);
             this.Controls.Add(this.password);

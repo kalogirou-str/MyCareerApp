@@ -1,4 +1,4 @@
-using System.Data.SQLite;
+﻿using System.Data.SQLite;
 
 namespace MyCareerApp
 {
@@ -39,7 +39,7 @@ namespace MyCareerApp
                             current_user_id = reader.GetInt32(reader.GetOrdinal("ID"));
                         }
 
-                        MessageBox.Show("Login successful!");
+                        MessageBox.Show("Επιτυχής Σύνδεση!");
                         Menu menu = new Menu(current_user_id);
                         Hide();
                         menu.Show();

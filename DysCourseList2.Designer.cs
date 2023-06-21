@@ -36,9 +36,9 @@
             // kinitesAsyrmatesEpikoinwnisLinkLabel
             // 
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.AutoSize = true;
-            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Location = new System.Drawing.Point(263, 321);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Location = new System.Drawing.Point(230, 241);
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.Name = "kinitesAsyrmatesEpikoinwnisLinkLabel";
-            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Size = new System.Drawing.Size(256, 20);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Size = new System.Drawing.Size(202, 15);
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.TabIndex = 5;
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.TabStop = true;
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.Text = "Κινητές και Ασύρματες Επικοινωνίες";
@@ -47,9 +47,9 @@
             // diktyaYpsilwnTaxithtwnLinkLabel
             // 
             this.diktyaYpsilwnTaxithtwnLinkLabel.AutoSize = true;
-            this.diktyaYpsilwnTaxithtwnLinkLabel.Location = new System.Drawing.Point(264, 214);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Location = new System.Drawing.Point(231, 160);
             this.diktyaYpsilwnTaxithtwnLinkLabel.Name = "diktyaYpsilwnTaxithtwnLinkLabel";
-            this.diktyaYpsilwnTaxithtwnLinkLabel.Size = new System.Drawing.Size(194, 20);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Size = new System.Drawing.Size(158, 15);
             this.diktyaYpsilwnTaxithtwnLinkLabel.TabIndex = 4;
             this.diktyaYpsilwnTaxithtwnLinkLabel.TabStop = true;
             this.diktyaYpsilwnTaxithtwnLinkLabel.Text = "Δίκτυα Υψηλών Ταχυτήτων";
@@ -58,9 +58,9 @@
             // archtectureLinkLabel
             // 
             this.archtectureLinkLabel.AutoSize = true;
-            this.archtectureLinkLabel.Location = new System.Drawing.Point(281, 110);
+            this.archtectureLinkLabel.Location = new System.Drawing.Point(246, 82);
             this.archtectureLinkLabel.Name = "archtectureLinkLabel";
-            this.archtectureLinkLabel.Size = new System.Drawing.Size(284, 20);
+            this.archtectureLinkLabel.Size = new System.Drawing.Size(224, 15);
             this.archtectureLinkLabel.TabIndex = 3;
             this.archtectureLinkLabel.TabStop = true;
             this.archtectureLinkLabel.Text = "Προηγμένη Αρχιτεκτονική Υπολογιστών";
@@ -68,12 +68,13 @@
             // 
             // DysCourseList2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.kinitesAsyrmatesEpikoinwnisLinkLabel);
             this.Controls.Add(this.diktyaYpsilwnTaxithtwnLinkLabel);
             this.Controls.Add(this.archtectureLinkLabel);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DysCourseList2";
             this.Text = "DysCourseList2";
             this.ResumeLayout(false);

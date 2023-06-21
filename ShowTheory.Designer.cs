@@ -40,20 +40,22 @@
             // 
             this.speciality.AutoSize = true;
             this.speciality.Font = new System.Drawing.Font("Arial Narrow", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.speciality.Location = new System.Drawing.Point(292, 18);
+            this.speciality.Location = new System.Drawing.Point(429, 35);
             this.speciality.Name = "speciality";
-            this.speciality.Size = new System.Drawing.Size(104, 29);
+            this.speciality.Size = new System.Drawing.Size(111, 29);
             this.speciality.TabIndex = 0;
-            this.speciality.Text = "Speciality";
+            this.speciality.Text = "Ειδικότητα";
             // 
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.RosyBrown;
-            this.richTextBox1.Location = new System.Drawing.Point(0, 73);
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.richTextBox1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(0, 121);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(700, 265);
+            this.richTextBox1.Size = new System.Drawing.Size(984, 440);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
             // 
@@ -63,9 +65,9 @@
             this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exitButton.Location = new System.Drawing.Point(587, 12);
+            this.exitButton.Location = new System.Drawing.Point(787, 12);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(101, 47);
+            this.exitButton.Size = new System.Drawing.Size(185, 80);
             this.exitButton.TabIndex = 12;
             this.exitButton.Text = "Έξοδος";
             this.exitButton.UseVisualStyleBackColor = false;
@@ -79,7 +81,7 @@
             this.backButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(101, 47);
+            this.backButton.Size = new System.Drawing.Size(185, 80);
             this.backButton.TabIndex = 13;
             this.backButton.Text = "Πίσω";
             this.backButton.UseVisualStyleBackColor = false;
@@ -90,7 +92,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(700, 338);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.speciality);
