@@ -36,9 +36,11 @@
             // securityLinkLabel
             // 
             this.securityLinkLabel.AutoSize = true;
-            this.securityLinkLabel.Location = new System.Drawing.Point(232, 148);
+            this.securityLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.securityLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.securityLinkLabel.Location = new System.Drawing.Point(188, 222);
             this.securityLinkLabel.Name = "securityLinkLabel";
-            this.securityLinkLabel.Size = new System.Drawing.Size(211, 15);
+            this.securityLinkLabel.Size = new System.Drawing.Size(542, 42);
             this.securityLinkLabel.TabIndex = 1;
             this.securityLinkLabel.TabStop = true;
             this.securityLinkLabel.Text = "Συστήματα Υποστήριξης Αποφάσεων";
@@ -47,9 +49,11 @@
             // dataAnalyticsLinkLabel
             // 
             this.dataAnalyticsLinkLabel.AutoSize = true;
-            this.dataAnalyticsLinkLabel.Location = new System.Drawing.Point(231, 228);
+            this.dataAnalyticsLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dataAnalyticsLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.dataAnalyticsLinkLabel.Location = new System.Drawing.Point(188, 135);
             this.dataAnalyticsLinkLabel.Name = "dataAnalyticsLinkLabel";
-            this.dataAnalyticsLinkLabel.Size = new System.Drawing.Size(212, 15);
+            this.dataAnalyticsLinkLabel.Size = new System.Drawing.Size(558, 42);
             this.dataAnalyticsLinkLabel.TabIndex = 2;
             this.dataAnalyticsLinkLabel.TabStop = true;
             this.dataAnalyticsLinkLabel.Text = "Ηλεκτρονικό Επιχειρείν και Καινοτομία";
@@ -58,9 +62,11 @@
             // cryptographyLinkLabel
             // 
             this.cryptographyLinkLabel.AutoSize = true;
-            this.cryptographyLinkLabel.Location = new System.Drawing.Point(247, 70);
+            this.cryptographyLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cryptographyLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.cryptographyLinkLabel.Location = new System.Drawing.Point(188, 314);
             this.cryptographyLinkLabel.Name = "cryptographyLinkLabel";
-            this.cryptographyLinkLabel.Size = new System.Drawing.Size(88, 15);
+            this.cryptographyLinkLabel.Size = new System.Drawing.Size(226, 42);
             this.cryptographyLinkLabel.TabIndex = 0;
             this.cryptographyLinkLabel.TabStop = true;
             this.cryptographyLinkLabel.Text = "Κρυπτογραφία";
@@ -70,6 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.dataAnalyticsLinkLabel);
             this.Controls.Add(this.securityLinkLabel);

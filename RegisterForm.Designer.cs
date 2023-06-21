@@ -40,7 +40,7 @@
             // 
             this.password.AutoSize = true;
             this.password.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.password.Location = new System.Drawing.Point(241, 163);
+            this.password.Location = new System.Drawing.Point(241, 188);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(91, 25);
             this.password.TabIndex = 10;
@@ -58,7 +58,7 @@
             // 
             // registerPasswordTextBox
             // 
-            this.registerPasswordTextBox.Location = new System.Drawing.Point(338, 163);
+            this.registerPasswordTextBox.Location = new System.Drawing.Point(338, 188);
             this.registerPasswordTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.registerPasswordTextBox.Name = "registerPasswordTextBox";
             this.registerPasswordTextBox.PasswordChar = '*';

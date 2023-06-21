@@ -41,11 +41,11 @@
             this.videoGameDeveloper.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.videoGameDeveloper.AutoSize = true;
             this.videoGameDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.videoGameDeveloper.LinkColor = System.Drawing.Color.IndianRed;
-            this.videoGameDeveloper.Location = new System.Drawing.Point(258, 210);
+            this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.videoGameDeveloper.LinkColor = System.Drawing.Color.Maroon;
+            this.videoGameDeveloper.Location = new System.Drawing.Point(164, 147);
             this.videoGameDeveloper.Name = "videoGameDeveloper";
-            this.videoGameDeveloper.Size = new System.Drawing.Size(442, 29);
+            this.videoGameDeveloper.Size = new System.Drawing.Size(663, 42);
             this.videoGameDeveloper.TabIndex = 4;
             this.videoGameDeveloper.TabStop = true;
             this.videoGameDeveloper.Text = "•Τεχνολογία Λογισμικού και Ευφυή Συστήματα";
@@ -57,11 +57,11 @@
             this.userExperienceDesign.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.userExperienceDesign.AutoSize = true;
             this.userExperienceDesign.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.userExperienceDesign.LinkColor = System.Drawing.Color.IndianRed;
-            this.userExperienceDesign.Location = new System.Drawing.Point(258, 251);
+            this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.userExperienceDesign.LinkColor = System.Drawing.Color.Maroon;
+            this.userExperienceDesign.Location = new System.Drawing.Point(164, 223);
             this.userExperienceDesign.Name = "userExperienceDesign";
-            this.userExperienceDesign.Size = new System.Drawing.Size(408, 29);
+            this.userExperienceDesign.Size = new System.Drawing.Size(608, 42);
             this.userExperienceDesign.TabIndex = 9;
             this.userExperienceDesign.TabStop = true;
             this.userExperienceDesign.Text = "•Διαδικτυακά και Υπολογιστικά Συστήματα";
@@ -73,11 +73,11 @@
             this.blockchain.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.blockchain.AutoSize = true;
             this.blockchain.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.blockchain.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.blockchain.LinkColor = System.Drawing.Color.IndianRed;
-            this.blockchain.Location = new System.Drawing.Point(258, 291);
+            this.blockchain.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.blockchain.LinkColor = System.Drawing.Color.Maroon;
+            this.blockchain.Location = new System.Drawing.Point(164, 303);
             this.blockchain.Name = "blockchain";
-            this.blockchain.Size = new System.Drawing.Size(402, 29);
+            this.blockchain.Size = new System.Drawing.Size(602, 42);
             this.blockchain.TabIndex = 5;
             this.blockchain.TabStop = true;
             this.blockchain.Text = "•Πληροφοριακά Συστήματα και Υπηρεσίες";
@@ -89,7 +89,7 @@
             this.backButton.BackColor = System.Drawing.Color.Transparent;
             this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.backButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(185, 80);
@@ -103,7 +103,7 @@
             this.exitButton.BackColor = System.Drawing.Color.Transparent;
             this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.exitButton.Location = new System.Drawing.Point(787, 12);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(185, 80);
@@ -115,12 +115,12 @@
             // message
             // 
             this.message.AutoSize = true;
-            this.message.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.message.Location = new System.Drawing.Point(675, 451);
+            this.message.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.message.Location = new System.Drawing.Point(644, 465);
             this.message.Name = "message";
-            this.message.Size = new System.Drawing.Size(252, 69);
+            this.message.Size = new System.Drawing.Size(328, 87);
             this.message.TabIndex = 12;
-            this.message.Text = "Παρακαλώ διαλέξτε την ειδικότητα \r\nγια την οποία θέλετε να μελετήσετε\r\n πατώντας " +
+            this.message.Text = "Παρακαλώ διαλέξτε την κατεύθυνση \r\nγια την οποία θέλετε να μελετήσετε\r\n πατώντας " +
     "κλικ πάνω της.";
             // 
             // Theory

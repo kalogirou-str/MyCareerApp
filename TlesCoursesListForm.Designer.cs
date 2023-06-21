@@ -36,9 +36,11 @@
             // bioinformaticsLinkLabel
             // 
             this.bioinformaticsLinkLabel.AutoSize = true;
-            this.bioinformaticsLinkLabel.Location = new System.Drawing.Point(267, 114);
+            this.bioinformaticsLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bioinformaticsLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.bioinformaticsLinkLabel.Location = new System.Drawing.Point(237, 235);
             this.bioinformaticsLinkLabel.Name = "bioinformaticsLinkLabel";
-            this.bioinformaticsLinkLabel.Size = new System.Drawing.Size(153, 15);
+            this.bioinformaticsLinkLabel.Size = new System.Drawing.Size(391, 42);
             this.bioinformaticsLinkLabel.TabIndex = 0;
             this.bioinformaticsLinkLabel.TabStop = true;
             this.bioinformaticsLinkLabel.Text = "Λογικός Προγραμματισμός";
@@ -47,9 +49,11 @@
             // naturalLanguageProcessLinkLabel
             // 
             this.naturalLanguageProcessLinkLabel.AutoSize = true;
-            this.naturalLanguageProcessLinkLabel.Location = new System.Drawing.Point(253, 64);
+            this.naturalLanguageProcessLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.naturalLanguageProcessLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.naturalLanguageProcessLinkLabel.Location = new System.Drawing.Point(237, 157);
             this.naturalLanguageProcessLinkLabel.Name = "naturalLanguageProcessLinkLabel";
-            this.naturalLanguageProcessLinkLabel.Size = new System.Drawing.Size(243, 15);
+            this.naturalLanguageProcessLinkLabel.Size = new System.Drawing.Size(630, 42);
             this.naturalLanguageProcessLinkLabel.TabIndex = 1;
             this.naturalLanguageProcessLinkLabel.TabStop = true;
             this.naturalLanguageProcessLinkLabel.Text = "Συστήματα Διαχείρισης Βάσεων Δεδομένων";
@@ -58,9 +62,11 @@
             // androidLinkLabel
             // 
             this.androidLinkLabel.AutoSize = true;
-            this.androidLinkLabel.Location = new System.Drawing.Point(267, 161);
+            this.androidLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.androidLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.androidLinkLabel.Location = new System.Drawing.Point(237, 312);
             this.androidLinkLabel.Name = "androidLinkLabel";
-            this.androidLinkLabel.Size = new System.Drawing.Size(145, 15);
+            this.androidLinkLabel.Size = new System.Drawing.Size(371, 42);
             this.androidLinkLabel.TabIndex = 2;
             this.androidLinkLabel.TabStop = true;
             this.androidLinkLabel.Text = "Εικονική Πραγματικότητα";
@@ -70,6 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.androidLinkLabel);
             this.Controls.Add(this.naturalLanguageProcessLinkLabel);

@@ -36,9 +36,11 @@
             // kinitesAsyrmatesEpikoinwnisLinkLabel
             // 
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.AutoSize = true;
-            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Location = new System.Drawing.Point(230, 241);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Location = new System.Drawing.Point(223, 211);
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.Name = "kinitesAsyrmatesEpikoinwnisLinkLabel";
-            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Size = new System.Drawing.Size(202, 15);
+            this.kinitesAsyrmatesEpikoinwnisLinkLabel.Size = new System.Drawing.Size(527, 42);
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.TabIndex = 5;
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.TabStop = true;
             this.kinitesAsyrmatesEpikoinwnisLinkLabel.Text = "Κινητές και Ασύρματες Επικοινωνίες";
@@ -47,9 +49,11 @@
             // diktyaYpsilwnTaxithtwnLinkLabel
             // 
             this.diktyaYpsilwnTaxithtwnLinkLabel.AutoSize = true;
-            this.diktyaYpsilwnTaxithtwnLinkLabel.Location = new System.Drawing.Point(231, 160);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Location = new System.Drawing.Point(223, 299);
             this.diktyaYpsilwnTaxithtwnLinkLabel.Name = "diktyaYpsilwnTaxithtwnLinkLabel";
-            this.diktyaYpsilwnTaxithtwnLinkLabel.Size = new System.Drawing.Size(158, 15);
+            this.diktyaYpsilwnTaxithtwnLinkLabel.Size = new System.Drawing.Size(396, 42);
             this.diktyaYpsilwnTaxithtwnLinkLabel.TabIndex = 4;
             this.diktyaYpsilwnTaxithtwnLinkLabel.TabStop = true;
             this.diktyaYpsilwnTaxithtwnLinkLabel.Text = "Δίκτυα Υψηλών Ταχυτήτων";
@@ -58,9 +62,11 @@
             // archtectureLinkLabel
             // 
             this.archtectureLinkLabel.AutoSize = true;
-            this.archtectureLinkLabel.Location = new System.Drawing.Point(246, 82);
+            this.archtectureLinkLabel.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.archtectureLinkLabel.LinkColor = System.Drawing.Color.Maroon;
+            this.archtectureLinkLabel.Location = new System.Drawing.Point(223, 126);
             this.archtectureLinkLabel.Name = "archtectureLinkLabel";
-            this.archtectureLinkLabel.Size = new System.Drawing.Size(224, 15);
+            this.archtectureLinkLabel.Size = new System.Drawing.Size(577, 42);
             this.archtectureLinkLabel.TabIndex = 3;
             this.archtectureLinkLabel.TabStop = true;
             this.archtectureLinkLabel.Text = "Προηγμένη Αρχιτεκτονική Υπολογιστών";
@@ -70,6 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.kinitesAsyrmatesEpikoinwnisLinkLabel);
             this.Controls.Add(this.diktyaYpsilwnTaxithtwnLinkLabel);
