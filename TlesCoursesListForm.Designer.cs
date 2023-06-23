@@ -31,6 +31,9 @@
             this.bioinformaticsLinkLabel = new System.Windows.Forms.LinkLabel();
             this.naturalLanguageProcessLinkLabel = new System.Windows.Forms.LinkLabel();
             this.androidLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
+            this.helpButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bioinformaticsLinkLabel
@@ -72,17 +75,63 @@
             this.androidLinkLabel.Text = "Εικονική Πραγματικότητα";
             this.androidLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.eikonikiPragmatikotitaLinkLabel_LinkClicked);
             // 
+            // exitButton
+            // 
+            this.exitButton.BackColor = System.Drawing.Color.Transparent;
+            this.exitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.exitButton.Location = new System.Drawing.Point(787, 12);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(185, 80);
+            this.exitButton.TabIndex = 28;
+            this.exitButton.Text = "Έξοδος";
+            this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // backButton
+            // 
+            this.backButton.BackColor = System.Drawing.Color.Transparent;
+            this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backButton.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.backButton.Location = new System.Drawing.Point(12, 12);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(185, 80);
+            this.backButton.TabIndex = 27;
+            this.backButton.Text = "Πίσω";
+            this.backButton.UseVisualStyleBackColor = false;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
+            // helpButton
+            // 
+            this.helpButton.BackColor = System.Drawing.Color.Transparent;
+            this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.helpButton.Location = new System.Drawing.Point(12, 517);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.TabIndex = 29;
+            this.helpButton.Text = "Βοήθεια!";
+            this.helpButton.UseVisualStyleBackColor = false;
+            // 
             // TlesCoursesListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.helpButton);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.androidLinkLabel);
             this.Controls.Add(this.naturalLanguageProcessLinkLabel);
             this.Controls.Add(this.bioinformaticsLinkLabel);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TlesCoursesListForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,5 +142,8 @@
         private LinkLabel bioinformaticsLinkLabel;
         private LinkLabel naturalLanguageProcessLinkLabel;
         private LinkLabel androidLinkLabel;
+        private Button exitButton;
+        private Button backButton;
+        private Button helpButton;
     }
 }

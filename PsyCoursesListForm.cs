@@ -64,5 +64,17 @@ namespace MyCareerApp
                 }
             }
         }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Theory theory = new Theory(1);
+            Close();
+            theory.Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

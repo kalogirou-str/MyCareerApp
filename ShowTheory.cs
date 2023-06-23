@@ -100,8 +100,8 @@ namespace MyCareerApp
         private void backButton_Click_1(object sender, EventArgs e)
         {
             Close();
-            Theory theoryForm = new Theory(new_current_user_id);
-            theoryForm.Show();
+            Theory theory = new Theory(1);
+            theory.Show();
         }
     }
 }

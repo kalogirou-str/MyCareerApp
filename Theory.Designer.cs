@@ -34,6 +34,7 @@
             this.backButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.message = new System.Windows.Forms.Label();
+            this.helpButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // videoGameDeveloper
@@ -123,12 +124,27 @@
             this.message.Text = "Παρακαλώ διαλέξτε την κατεύθυνση \r\nγια την οποία θέλετε να μελετήσετε\r\n πατώντας " +
     "κλικ πάνω της.";
             // 
+            // helpButton
+            // 
+            this.helpButton.BackColor = System.Drawing.Color.Transparent;
+            this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.helpButton.Location = new System.Drawing.Point(12, 520);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.TabIndex = 27;
+            this.helpButton.Text = "Βοήθεια!";
+            this.helpButton.UseVisualStyleBackColor = false;
+            // 
             // Theory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.helpButton);
             this.Controls.Add(this.message);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.backButton);
@@ -152,5 +168,6 @@
         private Button backButton;
         private Button exitButton;
         private Label message;
+        private Button helpButton;
     }
 }

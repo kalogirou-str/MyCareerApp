@@ -38,6 +38,7 @@
             this.speciality3 = new System.Windows.Forms.Label();
             this.speciality2 = new System.Windows.Forms.Label();
             this.speciality1 = new System.Windows.Forms.Label();
+            this.helpButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +84,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.helpButton);
             this.groupBox1.Controls.Add(this.chosenSpeciality3);
             this.groupBox1.Controls.Add(this.chosenSpeciality2);
             this.groupBox1.Controls.Add(this.chosenSpeciality1);
@@ -156,6 +158,20 @@
             this.speciality1.TabIndex = 0;
             this.speciality1.Text = "1)";
             // 
+            // helpButton
+            // 
+            this.helpButton.BackColor = System.Drawing.Color.Transparent;
+            this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.helpButton.Location = new System.Drawing.Point(12, 337);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.TabIndex = 28;
+            this.helpButton.Text = "Βοήθεια!";
+            this.helpButton.UseVisualStyleBackColor = false;
+            // 
             // Recommendation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -191,5 +207,6 @@
         private Label speciality3;
         private Label speciality2;
         private Label speciality1;
+        private Button helpButton;
     }
 }

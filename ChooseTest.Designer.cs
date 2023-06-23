@@ -41,6 +41,7 @@
             this.webDesigner = new System.Windows.Forms.LinkLabel();
             this.dataAnalyst = new System.Windows.Forms.LinkLabel();
             this.softwareDeveloper = new System.Windows.Forms.LinkLabel();
+            this.helpButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // message
@@ -87,14 +88,14 @@
             this.userExperienceDesign.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.userExperienceDesign.AutoSize = true;
             this.userExperienceDesign.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.userExperienceDesign.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.userExperienceDesign.LinkColor = System.Drawing.Color.Maroon;
-            this.userExperienceDesign.Location = new System.Drawing.Point(287, 107);
+            this.userExperienceDesign.Location = new System.Drawing.Point(205, 134);
             this.userExperienceDesign.Name = "userExperienceDesign";
-            this.userExperienceDesign.Size = new System.Drawing.Size(379, 43);
+            this.userExperienceDesign.Size = new System.Drawing.Size(363, 37);
             this.userExperienceDesign.TabIndex = 22;
             this.userExperienceDesign.TabStop = true;
-            this.userExperienceDesign.Text = "•User Experience Design";
+            this.userExperienceDesign.Text = "•Λογικός Προγραμματισμός";
             this.userExperienceDesign.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.userExperienceDesign.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.userExperienceDesign_LinkClicked);
             // 
@@ -103,14 +104,14 @@
             this.networkEngineer.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.networkEngineer.AutoSize = true;
             this.networkEngineer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.networkEngineer.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.networkEngineer.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.networkEngineer.LinkColor = System.Drawing.Color.Maroon;
-            this.networkEngineer.Location = new System.Drawing.Point(287, 279);
+            this.networkEngineer.Location = new System.Drawing.Point(205, 306);
             this.networkEngineer.Name = "networkEngineer";
-            this.networkEngineer.Size = new System.Drawing.Size(290, 43);
+            this.networkEngineer.Size = new System.Drawing.Size(213, 37);
             this.networkEngineer.TabIndex = 21;
             this.networkEngineer.TabStop = true;
-            this.networkEngineer.Text = "•Network Engineer";
+            this.networkEngineer.Text = "•Κρυπτογραφία";
             this.networkEngineer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.networkEngineer.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.networkEngineer_LinkClicked);
             // 
@@ -119,14 +120,14 @@
             this.informationSecurity.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.informationSecurity.AutoSize = true;
             this.informationSecurity.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.informationSecurity.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.informationSecurity.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.informationSecurity.LinkColor = System.Drawing.Color.Maroon;
-            this.informationSecurity.Location = new System.Drawing.Point(287, 193);
+            this.informationSecurity.Location = new System.Drawing.Point(205, 220);
             this.informationSecurity.Name = "informationSecurity";
-            this.informationSecurity.Size = new System.Drawing.Size(326, 43);
+            this.informationSecurity.Size = new System.Drawing.Size(512, 37);
             this.informationSecurity.TabIndex = 20;
             this.informationSecurity.TabStop = true;
-            this.informationSecurity.Text = "•Information Security";
+            this.informationSecurity.Text = "•Ηλεκτρονικό Επιχειρείν και Καινοτομία";
             this.informationSecurity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.informationSecurity.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.informationSecurity_LinkClicked);
             // 
@@ -135,14 +136,14 @@
             this.machineLearning.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.machineLearning.AutoSize = true;
             this.machineLearning.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.machineLearning.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.machineLearning.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.machineLearning.LinkColor = System.Drawing.Color.Maroon;
-            this.machineLearning.Location = new System.Drawing.Point(287, 322);
+            this.machineLearning.Location = new System.Drawing.Point(205, 349);
             this.machineLearning.Name = "machineLearning";
-            this.machineLearning.Size = new System.Drawing.Size(290, 43);
+            this.machineLearning.Size = new System.Drawing.Size(532, 37);
             this.machineLearning.TabIndex = 19;
             this.machineLearning.TabStop = true;
-            this.machineLearning.Text = "•Machine Learning";
+            this.machineLearning.Text = "•Προηγμένη Αρχιτεκτονική Υπολογιστών";
             this.machineLearning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.machineLearning.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.machineLearning_LinkClicked);
             // 
@@ -151,14 +152,14 @@
             this.computerSystemAnalyst.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.computerSystemAnalyst.AutoSize = true;
             this.computerSystemAnalyst.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.computerSystemAnalyst.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.computerSystemAnalyst.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.computerSystemAnalyst.LinkColor = System.Drawing.Color.Maroon;
-            this.computerSystemAnalyst.Location = new System.Drawing.Point(287, 64);
+            this.computerSystemAnalyst.Location = new System.Drawing.Point(205, 91);
             this.computerSystemAnalyst.Name = "computerSystemAnalyst";
-            this.computerSystemAnalyst.Size = new System.Drawing.Size(409, 43);
+            this.computerSystemAnalyst.Size = new System.Drawing.Size(576, 37);
             this.computerSystemAnalyst.TabIndex = 18;
             this.computerSystemAnalyst.TabStop = true;
-            this.computerSystemAnalyst.Text = "•Computer System Analyst";
+            this.computerSystemAnalyst.Text = "•Συστήματα Διαχείρισης Βάσεων Δεδομένων";
             this.computerSystemAnalyst.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.computerSystemAnalyst.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.computerSystemAnalyst_LinkClicked);
             // 
@@ -167,14 +168,14 @@
             this.videoGameDeveloper.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.videoGameDeveloper.AutoSize = true;
             this.videoGameDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.videoGameDeveloper.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.videoGameDeveloper.LinkColor = System.Drawing.Color.Maroon;
-            this.videoGameDeveloper.Location = new System.Drawing.Point(287, 150);
+            this.videoGameDeveloper.Location = new System.Drawing.Point(205, 177);
             this.videoGameDeveloper.Name = "videoGameDeveloper";
-            this.videoGameDeveloper.Size = new System.Drawing.Size(362, 43);
+            this.videoGameDeveloper.Size = new System.Drawing.Size(346, 37);
             this.videoGameDeveloper.TabIndex = 17;
             this.videoGameDeveloper.TabStop = true;
-            this.videoGameDeveloper.Text = "•Video Game Developer";
+            this.videoGameDeveloper.Text = "•Εικονική Πραγματικότητα";
             this.videoGameDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.videoGameDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.videoGameDeveloper_LinkClicked);
             // 
@@ -183,14 +184,14 @@
             this.webDeveloper.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.webDeveloper.AutoSize = true;
             this.webDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.webDeveloper.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.webDeveloper.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.webDeveloper.LinkColor = System.Drawing.Color.Maroon;
-            this.webDeveloper.Location = new System.Drawing.Point(287, 365);
+            this.webDeveloper.Location = new System.Drawing.Point(205, 392);
             this.webDeveloper.Name = "webDeveloper";
-            this.webDeveloper.Size = new System.Drawing.Size(251, 43);
+            this.webDeveloper.Size = new System.Drawing.Size(486, 37);
             this.webDeveloper.TabIndex = 16;
             this.webDeveloper.TabStop = true;
-            this.webDeveloper.Text = "•Web Developer";
+            this.webDeveloper.Text = "•Κινητές και Ασύρματες Επικοινωνίες";
             this.webDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.webDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.webDeveloper_LinkClicked);
             // 
@@ -199,14 +200,14 @@
             this.webDesigner.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.webDesigner.AutoSize = true;
             this.webDesigner.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.webDesigner.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.webDesigner.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.webDesigner.LinkColor = System.Drawing.Color.Maroon;
-            this.webDesigner.Location = new System.Drawing.Point(287, 408);
+            this.webDesigner.Location = new System.Drawing.Point(205, 436);
             this.webDesigner.Name = "webDesigner";
-            this.webDesigner.Size = new System.Drawing.Size(234, 43);
+            this.webDesigner.Size = new System.Drawing.Size(369, 37);
             this.webDesigner.TabIndex = 15;
             this.webDesigner.TabStop = true;
-            this.webDesigner.Text = "•Web Designer";
+            this.webDesigner.Text = "•Δίκτυα Υψηλών Ταχυτήτων";
             this.webDesigner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.webDesigner.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.webDesigner_LinkClicked);
             // 
@@ -215,14 +216,14 @@
             this.dataAnalyst.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.dataAnalyst.AutoSize = true;
             this.dataAnalyst.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dataAnalyst.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dataAnalyst.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dataAnalyst.LinkColor = System.Drawing.Color.Maroon;
-            this.dataAnalyst.Location = new System.Drawing.Point(287, 451);
+            this.dataAnalyst.Location = new System.Drawing.Point(205, 479);
             this.dataAnalyst.Name = "dataAnalyst";
-            this.dataAnalyst.Size = new System.Drawing.Size(214, 43);
+            this.dataAnalyst.Size = new System.Drawing.Size(212, 37);
             this.dataAnalyst.TabIndex = 14;
             this.dataAnalyst.TabStop = true;
-            this.dataAnalyst.Text = "•Data Analyst";
+            this.dataAnalyst.Text = "•Επαναληπτικό";
             this.dataAnalyst.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dataAnalyst.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dataAnalyst_LinkClicked);
             // 
@@ -231,16 +232,31 @@
             this.softwareDeveloper.ActiveLinkColor = System.Drawing.Color.Firebrick;
             this.softwareDeveloper.AutoSize = true;
             this.softwareDeveloper.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.softwareDeveloper.Font = new System.Drawing.Font("Arial Narrow", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.softwareDeveloper.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.softwareDeveloper.LinkColor = System.Drawing.Color.Maroon;
-            this.softwareDeveloper.Location = new System.Drawing.Point(287, 236);
+            this.softwareDeveloper.Location = new System.Drawing.Point(205, 263);
             this.softwareDeveloper.Name = "softwareDeveloper";
-            this.softwareDeveloper.Size = new System.Drawing.Size(315, 43);
+            this.softwareDeveloper.Size = new System.Drawing.Size(499, 37);
             this.softwareDeveloper.TabIndex = 13;
             this.softwareDeveloper.TabStop = true;
-            this.softwareDeveloper.Text = "•Software Developer";
+            this.softwareDeveloper.Text = "•Συστήματα Υποστήριξης Αποφάσεων";
             this.softwareDeveloper.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.softwareDeveloper.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.softwareDeveloper_LinkClicked);
+            // 
+            // helpButton
+            // 
+            this.helpButton.BackColor = System.Drawing.Color.Transparent;
+            this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.helpButton.Location = new System.Drawing.Point(12, 517);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.TabIndex = 26;
+            this.helpButton.Text = "Βοήθεια!";
+            this.helpButton.UseVisualStyleBackColor = false;
+            this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
             // 
             // chooseTest
             // 
@@ -248,6 +264,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.helpButton);
             this.Controls.Add(this.message);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.backButton);
@@ -286,5 +303,6 @@
         private LinkLabel webDesigner;
         private LinkLabel dataAnalyst;
         private LinkLabel softwareDeveloper;
+        private Button helpButton;
     }
 }
