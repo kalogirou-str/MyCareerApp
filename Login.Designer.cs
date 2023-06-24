@@ -157,6 +157,7 @@
             this.helpButton.TabIndex = 27;
             this.helpButton.Text = "Βοήθεια!";
             this.helpButton.UseVisualStyleBackColor = false;
+            this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
             // 
             // Login
             // 

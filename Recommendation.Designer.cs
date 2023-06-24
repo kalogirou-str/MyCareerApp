@@ -32,13 +32,13 @@
             this.exitButton = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.helpButton = new System.Windows.Forms.Button();
             this.chosenSpeciality3 = new System.Windows.Forms.Label();
             this.chosenSpeciality2 = new System.Windows.Forms.Label();
             this.chosenSpeciality1 = new System.Windows.Forms.Label();
             this.speciality3 = new System.Windows.Forms.Label();
             this.speciality2 = new System.Windows.Forms.Label();
             this.speciality1 = new System.Windows.Forms.Label();
-            this.helpButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,6 +97,21 @@
             this.groupBox1.Size = new System.Drawing.Size(984, 381);
             this.groupBox1.TabIndex = 27;
             this.groupBox1.TabStop = false;
+            // 
+            // helpButton
+            // 
+            this.helpButton.BackColor = System.Drawing.Color.Transparent;
+            this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.helpButton.Location = new System.Drawing.Point(12, 337);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(104, 32);
+            this.helpButton.TabIndex = 28;
+            this.helpButton.Text = "Βοήθεια!";
+            this.helpButton.UseVisualStyleBackColor = false;
+            this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
             // 
             // chosenSpeciality3
             // 
@@ -157,20 +172,6 @@
             this.speciality1.Size = new System.Drawing.Size(36, 33);
             this.speciality1.TabIndex = 0;
             this.speciality1.Text = "1)";
-            // 
-            // helpButton
-            // 
-            this.helpButton.BackColor = System.Drawing.Color.Transparent;
-            this.helpButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.helpButton.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.helpButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.helpButton.Location = new System.Drawing.Point(12, 337);
-            this.helpButton.Name = "helpButton";
-            this.helpButton.Size = new System.Drawing.Size(104, 32);
-            this.helpButton.TabIndex = 28;
-            this.helpButton.Text = "Βοήθεια!";
-            this.helpButton.UseVisualStyleBackColor = false;
             // 
             // Recommendation
             // 

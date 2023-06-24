@@ -97,6 +97,11 @@ namespace MyCareerApp
             Application.Exit();
         }
 
+        private void helpButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is the help message you want to display.", "Βοήθεια");
+        }
+
         private void backButton_Click_1(object sender, EventArgs e)
         {
             Close();

@@ -91,5 +91,10 @@ namespace MyCareerApp
                 }
             }
         }
+
+        private void helpButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is the help message you want to display.", "Βοήθεια");
+        }
     }
  }
