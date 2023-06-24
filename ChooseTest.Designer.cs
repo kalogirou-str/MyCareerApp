@@ -283,6 +283,7 @@
             this.Name = "chooseTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Επιλογή Τεστ";
+            this.Load += new System.EventHandler(this.chooseTest_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

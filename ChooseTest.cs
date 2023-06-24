@@ -34,78 +34,83 @@ namespace MyCareerApp
 
         private void softwareDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Προγραμματιστής Λογισμικού";
-            Test test = new(speciality);
+            speciality = "Συστήματα Υποστήριξης Αποφάσεων";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void dataAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Αναλυτής Δεδομένων";
-            Test test = new(speciality);
+            speciality = "Επαναληπτικό Τεστ";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void computerSystemAnalyst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Αναλυτής Συστήματος Υπολογιστών";
-            Test test = new(speciality);
+            speciality = "Συστήματα Διαχείρισης Βάσεων Δεδομένων";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void videoGameDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Προγραμματιστής Βιντεοπαιχνιδιών";
-            Test test = new(speciality);
+            speciality = "Εικονική Πραγματικότητα";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void userExperienceDesign_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Σχεδιαστής Εμπειρίας Χρήστη";
-            Test test = new(speciality);
+            speciality = "Λογικός Προγραμματισμός";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void informationSecurity_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Ασφάλεια Πληροφοριών";
-            Test test = new(speciality);
+            speciality = "Ηλεκτρονικό Επιχειρείν και Καινοτομία";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void networkEngineer_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Μηχανικός Δικτύου";
-            Test test = new(speciality);
+            speciality = "Κρυπτογραφία";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void machineLearning_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Μηχανική Μάθηση";
-            Test test = new(speciality);
+            speciality = "Προηγμένη Αρχιτεκτονική Υπολογιστών";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void webDeveloper_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Προγραμματιστής Ιστού";
-            Test test = new(speciality); 
+            speciality = "Κινητές και Ασύρματες Επικοινωνίες";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
         private void webDesigner_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            speciality = "Σχεδιαστής Iστοσελίδων";
-            Test test = new(speciality);
+            speciality = "Δίκτυα Υψηλών Ταχυτήτων";
+            Test test = new Test(speciality);
             Close();
             test.Show();
         }
 
         private void helpButton_Click(object sender, EventArgs e)
         {
-             MessageBox.Show("This is the help message you want to display.", "Βοήθεια");        
+            MessageBox.Show("This is the help message you want to display.", "Βοήθεια");
+        }
+
+        private void chooseTest_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
