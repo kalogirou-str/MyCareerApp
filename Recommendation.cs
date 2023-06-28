@@ -10,17 +10,20 @@ using System.Windows.Forms;
 
 namespace MyCareerApp
 {
+
     public partial class Recommendation : Form
     {
-        public Recommendation()
+        public static int new_current_user_id;
+        public Recommendation(int current_user_id)
         {
             InitializeComponent();
+            new_current_user_id = current_user_id;
         }
 
         private void backButton_Click(object sender, EventArgs e)
         {
             Close();
-            Menu menu = new Menu(1);
+            Menu menu = new Menu(new_current_user_id);
             menu.Show();
         }
 

@@ -13,9 +13,11 @@ namespace MyCareerApp
 {
     public partial class RegisterForm : Form
     {
-        public RegisterForm()
+        public static int new_current_user_id;
+        public RegisterForm(int current_user_id)
         {
             InitializeComponent();
+            new_current_user_id= current_user_id;
         }
         private void haveAccountLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

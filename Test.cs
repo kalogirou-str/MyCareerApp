@@ -14,13 +14,15 @@ namespace MyCareerApp
     {
         private string speciality;
         private int score;
+        public static int new_current_user_id;
 
-        public Test(string speciality)
+        public Test(string speciality, int current_user_id)
         {
             InitializeComponent();
             this.speciality = speciality;
             score = 0;
             label1.Text = speciality;
+            new_current_user_id= current_user_id;
 
 
             // Check the value of speciality and add specific options accordingly
@@ -290,7 +292,7 @@ namespace MyCareerApp
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            chooseTest chooseTest = new chooseTest();
+            chooseTest chooseTest = new chooseTest(new_current_user_id );
             Hide();
             chooseTest.Show();
         }
